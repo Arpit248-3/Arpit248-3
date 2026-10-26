@@ -9,14 +9,20 @@
 </p>
 
 <p align="center">
-  <img src="./assets/profile-tagline.svg" width="100%" alt="Engineering reliable AI-enabled products; designing clear interfaces and dependable APIs; leading teams from concept to delivery" />
+  <img src="./assets/profile-tagline.svg" width="100%" alt="Animated tagline: building scalable projects, designing premium user interfaces, lead developer and AI product engineering" />
 </p>
 
+<!-- Minimal icon-led links: no heavy rectangular badge row. -->
 <p align="center">
-  <a href="https://linkedin.com/in/arpit-jham-6963b628a"><img src="https://img.shields.io/badge/LINKEDIN-LET'S%20CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
-  <a href="https://leetcode.com/u/Arpit24Jh--8-3/"><img src="https://img.shields.io/badge/LEETCODE-CODING%20PROFILE-FFA116?style=for-the-badge&logo=leetcode&logoColor=171717" alt="LeetCode profile" /></a>
-  <a href="https://github.com/Arpit248-3?tab=repositories"><img src="https://img.shields.io/badge/GITHUB-EXPLORE%20PROJECTS-334155?style=for-the-badge&logo=github&logoColor=white" alt="Explore GitHub projects" /></a>
-  <a href="mailto:arpitjham23@gmail.com"><img src="https://img.shields.io/badge/EMAIL-GET%20IN%20TOUCH-0F766E?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Arpit Jham" /></a>
+  <a href="https://linkedin.com/in/arpit-jham-6963b628a"><img src="https://cdn.simpleicons.org/linkedin/60A5FA" height="19" alt="" />&nbsp; LinkedIn</a>
+  &nbsp; · &nbsp;
+  <a href="https://leetcode.com/u/Arpit24Jh--8-3/"><img src="https://cdn.simpleicons.org/leetcode/FFA116" height="19" alt="" />&nbsp; LeetCode</a>
+  &nbsp; · &nbsp;
+  <a href="https://github.com/Arpit248-3?tab=repositories"><img src="https://cdn.simpleicons.org/github/E6F1FF" height="19" alt="" />&nbsp; Projects</a>
+</p>
+<p align="center">
+  <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=arpitjham23%40gmail.com"><img src="https://cdn.simpleicons.org/gmail/EA4335" height="18" alt="" />&nbsp; <strong>Email: arpitjham23@gmail.com</strong></a>
+  &nbsp; <a href="mailto:arpitjham23@gmail.com">(open default mail app)</a>
 </p>
 
 <p align="center">
@@ -156,9 +162,9 @@ I’m especially interested in products where **useful interfaces, reliable serv
       <p>Won the Patient Experience & Safety Signals theme with AyuScout AI.</p>
     </td>
     <td width="33%" valign="top" align="center">
-      <img src="https://img.shields.io/badge/02-TOP%204%20OVERALL-1D4ED8?style=for-the-badge" alt="Top 4 overall" />
+      <img src="https://img.shields.io/badge/02-TOP%204-1D4ED8?style=for-the-badge" alt="Top 4" />
       <h3>16,200+ Registrations</h3>
-      <p>Top 4 overall and Top 50 among 16,200+ registrations at AI for Bharat Hackathon 2026.</p>
+      <p>Top 4 among 16,200+ registrations at AI for Bharat Hackathon 2026.</p>
     </td>
     <td width="33%" valign="top" align="center">
       <img src="https://img.shields.io/badge/03-1ST%20RUNNER--UP-92400E?style=for-the-badge" alt="First runner-up" />
@@ -174,7 +180,7 @@ I’m especially interested in products where **useful interfaces, reliable serv
 
 <h2 align="center"><img src="./assets/section-contributions.svg" width="100%" alt="06 — Contributions" /></h2>
 
-<p align="center"><sub>A locally generated, animated 31-day line chart — no third-party activity-graph image service required.</sub></p>
+<p align="center"><sub>Recent GitHub activity, rendered locally with a smooth curve and updated from the contribution snapshot.</sub></p>
 
 <p align="center">
   <img src="./activity-graph.svg" width="100%" alt="Animated GitHub activity line chart for the last 31 days, generated from the contribution snapshot" />
@@ -198,7 +204,8 @@ I’m especially interested in products where **useful interfaces, reliable serv
 </table>
 
 <p align="center">
-  <a href="https://linkedin.com/in/arpit-jham-6963b628a"><img src="https://img.shields.io/badge/LET'S%20CONNECT-LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://leetcode.com/u/Arpit24Jh--8-3/"><img src="https://img.shields.io/badge/KEEP%20PRACTICING-LEETCODE-FFA116?style=for-the-badge&logo=leetcode&logoColor=171717" alt="LeetCode" /></a>
-  <a href="https://github.com/Arpit248-3?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-GITHUB-334155?style=for-the-badge&logo=github&logoColor=white" alt="GitHub projects" /></a>
+  <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=arpitjham23%40gmail.com"><strong>✉ Email Arpit Jham · arpitjham23@gmail.com</strong></a>
+  &nbsp; · &nbsp;
+  <a href="mailto:arpitjham23@gmail.com">Open in default mail app</a>
 </p>
+<p align="center"><sub>Built with care · Focused on reliable software, thoughtful interfaces, and measurable product impact.</sub></p>

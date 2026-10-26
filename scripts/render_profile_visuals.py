@@ -55,65 +55,81 @@ def write_svg(path: Path, content: str) -> None:
 def hero_svg() -> str:
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="244" viewBox="0 0 1200 244" role="img" aria-labelledby="title desc">
 <title id="title">Arpit Jham — Team Lead, Full-Stack Developer, AI Product Engineering</title>
-<desc id="desc">An animated midnight-blue and teal profile banner with moving light trails.</desc>
+<desc id="desc">A premium animated midnight-navy banner with a visibly cursive gradient name, elegant serif subtitle, and flowing light trails.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#080D1B"/><stop offset=".48" stop-color="#123451"/><stop offset="1" stop-color="#075E61"/></linearGradient>
-  <linearGradient id="name" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F8FAFC"/><stop offset=".48" stop-color="#93C5FD"><animate attributeName="offset" values=".35;.62;.35" dur="6s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#5EEAD4"/></linearGradient>
-  <linearGradient id="trail" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#60A5FA" stop-opacity="0"/><stop offset=".5" stop-color="#22D3EE" stop-opacity=".9"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/></linearGradient>
-  <radialGradient id="orb"><stop offset="0" stop-color="#22D3EE" stop-opacity=".28"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#080D1B"/><stop offset=".46" stop-color="#102C48"/><stop offset="1" stop-color="#075E61"/></linearGradient>
+  <linearGradient id="name" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F8FAFC"/><stop offset=".42" stop-color="#93C5FD"/><stop offset=".72" stop-color="#67E8F9"/><stop offset="1" stop-color="#5EEAD4"/></linearGradient>
+  <linearGradient id="trail" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#60A5FA" stop-opacity="0"/><stop offset=".5" stop-color="#22D3EE" stop-opacity=".95"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/></linearGradient>
+  <radialGradient id="orb"><stop offset="0" stop-color="#22D3EE" stop-opacity=".25"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
   <clipPath id="round"><rect x="0" y="0" width="1200" height="244" rx="18"/></clipPath>
-  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="glow" x="-20%" y="-35%" width="140%" height="170%"><feGaussianBlur stdDeviation="3.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
 <style>
   .orb1{{animation:drift1 11s ease-in-out infinite alternate;transform-origin:center}}
   .orb2{{animation:drift2 14s ease-in-out infinite alternate;transform-origin:center}}
   .trail{{animation:trace 5.6s ease-in-out infinite}}
-  .hero{{opacity:1;animation:enter .95s cubic-bezier(.2,.8,.2,1) .15s both}}
-  .sub{{opacity:1;animation:enter .8s ease-out .65s both}}
+  .hero{{opacity:1;animation:enter 1s cubic-bezier(.2,.8,.2,1) .12s both}}
+  .sub{{opacity:1;animation:enter .85s ease-out .58s both}}
   .accent{{animation:pulse 3.4s ease-in-out infinite}}
+  .name-glint{{animation:glint 5s ease-in-out infinite}}
   @keyframes drift1{{from{{transform:translate(-30px,8px)}}to{{transform:translate(80px,-18px)}}}}
   @keyframes drift2{{from{{transform:translate(45px,-8px)}}to{{transform:translate(-60px,18px)}}}}
   @keyframes trace{{0%{{transform:translateX(-900px);opacity:0}}20%{{opacity:.95}}70%{{opacity:.8}}100%{{transform:translateX(1300px);opacity:0}}}}
-  @keyframes enter{{from{{opacity:0;transform:translateY(12px)}}to{{opacity:1;transform:translateY(0)}}}}
-  @keyframes pulse{{0%,100%{{opacity:.55}}50%{{opacity:1}}}}
-  @media (prefers-reduced-motion:reduce){{.orb1,.orb2,.trail,.hero,.sub,.accent{{animation:none!important;opacity:1!important;transform:none!important}}}}
+  @keyframes enter{{from{{opacity:0;transform:translateY(14px)}}to{{opacity:1;transform:translateY(0)}}}}
+  @keyframes pulse{{0%,100%{{opacity:.45}}50%{{opacity:1}}}}
+  @keyframes glint{{0%,14%{{opacity:0;transform:translateX(-260px)}}35%{{opacity:.7}}62%,100%{{opacity:0;transform:translateX(310px)}}}}
+  @media (prefers-reduced-motion:reduce){{.orb1,.orb2,.trail,.hero,.sub,.accent,.name-glint{{animation:none!important;opacity:1!important;transform:none!important}}}}
 </style>
 <g clip-path="url(#round)">
   <rect width="1200" height="244" fill="url(#bg)"/>
   <circle class="orb1" cx="235" cy="30" r="270" fill="url(#orb)"/>
   <circle class="orb2" cx="1040" cy="240" r="360" fill="url(#orb)"/>
-  <path d="M0 192 C180 152 300 224 470 184 S780 150 930 192 S1100 228 1200 168 V244 H0Z" fill="#08111F" opacity=".38"/>
-  <path d="M0 210 C160 172 290 230 460 201 S780 174 960 211 S1100 220 1200 198" fill="none" stroke="#38BDF8" stroke-opacity=".22" stroke-width="1.5"/>
+  <path d="M0 190 C175 146 300 226 470 184 S780 150 930 192 S1100 228 1200 168 V244 H0Z" fill="#08111F" opacity=".36"/>
+  <path d="M0 208 C160 170 290 230 460 199 S780 172 960 210 S1100 220 1200 197" fill="none" stroke="#38BDF8" stroke-opacity=".28" stroke-width="1.5"/>
   <g class="trail"><path d="M0 199 H1200" stroke="url(#trail)" stroke-width="2.2" filter="url(#glow)"/></g>
   <g class="hero" text-anchor="middle">
-    <text x="600" y="98" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="2" fill="url(#name)" filter="url(#glow)">ARPIT JHAM</text>
+    <text x="600" y="104" font-family="'Segoe Script','Brush Script MT','Lucida Handwriting',cursive" font-size="76" font-style="italic" font-weight="600" letter-spacing="1.1" fill="url(#name)" filter="url(#glow)">Arpit Jham</text>
+    <text class="name-glint" x="600" y="104" font-family="'Segoe Script','Brush Script MT','Lucida Handwriting',cursive" font-size="76" font-style="italic" font-weight="600" letter-spacing="1.1" fill="none" stroke="#E0F2FE" stroke-opacity=".38" stroke-width=".7">Arpit Jham</text>
   </g>
-  <g class="sub" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif">
-    <text x="600" y="141" font-size="18" font-weight="700" letter-spacing=".65" fill="#E6F7FF">TEAM LEAD  |  FULL-STACK DEVELOPER  |  AI PRODUCT ENGINEERING</text>
-    <text x="600" y="171" font-size="13" letter-spacing="2.1" fill="#A9D8E8">BUILDING RELIABLE SOFTWARE · INTELLIGENT WORKFLOWS · USEFUL INTERFACES</text>
+  <g class="sub" text-anchor="middle" font-family="'Times New Roman',Georgia,serif">
+    <text x="600" y="151" font-size="23" font-weight="700" letter-spacing=".55" fill="#F0F7FF">TEAM LEAD  ·  FULL-STACK DEVELOPER  ·  AI PRODUCT ENGINEERING</text>
   </g>
-  <rect class="accent" x="410" y="220" width="380" height="3" rx="1.5" fill="url(#trail)"/>
+  <path class="accent" d="M315 219 C450 219 490 225 600 219 S750 213 885 219" fill="none" stroke="url(#trail)" stroke-width="2.8" stroke-linecap="round"/>
 </g>
 </svg>'''
 
 
 def tagline_svg() -> str:
-    phrase = "ENGINEERING RELIABLE AI PRODUCTS  ·  DESIGNING CLEAR INTERFACES  ·  LEADING TEAMS TO DELIVERY"
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="64" viewBox="0 0 1200 64" role="img" aria-labelledby="title">
-<title id="title">Engineering reliable AI products, designing clear interfaces, leading teams to delivery</title>
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{BLUE}"/><stop offset=".52" stop-color="{CYAN}"/><stop offset="1" stop-color="{TEAL}"/></linearGradient><linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity=".7"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs>
+    phrases = [
+        "BUILDING SCALABLE PROJECTS",
+        "DESIGNING PREMIUM USER INTERFACES",
+        "LEAD DEVELOPER · AI PRODUCT ENGINEERING",
+    ]
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="82" viewBox="0 0 1200 82" role="img" aria-labelledby="title desc">
+<title id="title">Arpit Jham — rotating developer tagline</title>
+<desc id="desc">Transparent animated type that cycles between building scalable projects, designing premium user interfaces, and lead developer and AI product engineering.</desc>
+<defs>
+ <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#60A5FA"/><stop offset=".46" stop-color="#22D3EE"/><stop offset="1" stop-color="#5EEAD4"/></linearGradient>
+ <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity=".8"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+ <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#60A5FA" stop-opacity=".12"/><stop offset=".5" stop-color="#22D3EE" stop-opacity=".75"/><stop offset="1" stop-color="#5EEAD4" stop-opacity=".12"/></linearGradient>
+ <filter id="softglow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="3.1" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
 <style>
-  .caption{{font-family:'JetBrains Mono',Consolas,monospace;font-size:19px;font-weight:700;letter-spacing:.35px;fill:url(#g)}}
-  .sweep{{animation:sweep 4.8s ease-in-out infinite}}
-  @keyframes sweep{{0%{{transform:translateX(-520px);opacity:0}}18%{{opacity:.8}}58%{{transform:translateX(520px);opacity:0}}100%{{transform:translateX(520px);opacity:0}}}}
-  @media (prefers-reduced-motion:reduce){{.sweep{{animation:none;display:none}}}}
+ .phrase{{font-family:'Times New Roman',Georgia,serif;font-size:25px;font-weight:700;font-style:italic;letter-spacing:1.7px;fill:url(#g);filter:url(#softglow)}}
+ .shine{{animation:scan 4.8s ease-in-out infinite}}
+ .underline{{stroke-dasharray:250;stroke-dashoffset:250;animation:draw 4s ease-in-out infinite}}
+ @keyframes scan{{0%{{transform:translateX(-550px);opacity:0}}22%{{opacity:.85}}58%{{opacity:0}}100%{{transform:translateX(550px);opacity:0}}}}
+ @keyframes draw{{0%,8%{{stroke-dashoffset:250;opacity:.25}}42%,60%{{stroke-dashoffset:0;opacity:.9}}100%{{stroke-dashoffset:-250;opacity:.2}}}}
+ @media (prefers-reduced-motion:reduce){{.shine,.underline{{animation:none}}.shine{{opacity:.25}}.underline{{stroke-dashoffset:0}}}}
 </style>
-<rect width="1200" height="64" rx="14" fill="{PANEL}" fill-opacity=".9" stroke="{BORDER}" stroke-opacity=".8"/>
-<text class="caption" x="600" y="36" text-anchor="middle">{html.escape(phrase)}</text>
-<path d="M26 51 H1174" stroke="{BORDER}" stroke-width="1"/><path d="M26 51 H1174" stroke="url(#g)" stroke-width="2.2" stroke-linecap="round" opacity=".65"/>
-<rect class="sweep" x="0" y="49" width="330" height="4" rx="2" fill="url(#shine)"/>
+<!-- Transparent canvas: only the type, a faint baseline, and moving light are rendered. -->
+<text class="phrase" x="600" y="42" text-anchor="middle" opacity="1">{html.escape(phrases[0])}<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.04;.25;.32;1" dur="9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 9;0 0;0 0;0 -8;0 -8" keyTimes="0;.04;.25;.32;1" dur="9s" repeatCount="indefinite"/></text>
+<text class="phrase" x="600" y="42" text-anchor="middle" opacity="0">{html.escape(phrases[1])}<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.32;.37;.60;.66;1" dur="9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 9;0 9;0 0;0 0;0 -8;0 -8" keyTimes="0;.32;.37;.60;.66;1" dur="9s" repeatCount="indefinite"/></text>
+<text class="phrase" x="600" y="42" text-anchor="middle" opacity="0">{html.escape(phrases[2])}<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.66;.71;.94;1" dur="9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 9;0 9;0 0;0 0;0 -8" keyTimes="0;.66;.71;.94;1" dur="9s" repeatCount="indefinite"/></text>
+<path d="M150 66 H1050" stroke="url(#line)" stroke-width="1.5" stroke-linecap="round"/>
+<path class="underline" d="M300 66 H900" stroke="url(#g)" stroke-width="2.1" stroke-linecap="round" fill="none"/>
+<rect class="shine" x="0" y="64" width="300" height="4" rx="2" fill="url(#shine)"/>
 </svg>'''
-
 
 SECTIONS = [
     ("section-about.svg", "01", "ABOUT", BLUE, 0.08),
@@ -168,69 +184,118 @@ def activity_graph_svg(data: dict) -> str:
         points_data.append((day, count))
 
     width, height = 1120, 340
-    left, right, top, bottom = 74.0, 1080.0, 76.0, 257.0
+    left, right, top, bottom = 76.0, 1084.0, 76.0, 256.0
     max_value = max((count for _, count in points_data), default=0)
-    scale_max = max(1, math.ceil(max_value / 2) * 2 if max_value <= 10 else math.ceil(max_value / 5) * 5)
-    coords = []
+    # Give low-volume days some breathing room without duplicated tick labels.
+    if max_value <= 6:
+        scale_max = max(2, max_value + 1)
+    else:
+        scale_max = math.ceil(max_value / 5) * 5
+
+    coords: list[tuple[float, float, int]] = []
+    denominator = max(1, len(points_data) - 1)
     for i, (_, count) in enumerate(points_data):
-        x = left + (right - left) * i / max(1, len(points_data) - 1)
+        x = left + (right - left) * i / denominator
         y = bottom - (bottom - top) * count / scale_max
         coords.append((x, y, count))
-    path_d = "M " + " L ".join(f"{x:.2f} {y:.2f}" for x, y, _ in coords)
-    area_d = f"{path_d} L {right:.2f} {bottom:.2f} L {left:.2f} {bottom:.2f} Z"
-    path_len = sum(math.hypot(coords[i][0]-coords[i-1][0], coords[i][1]-coords[i-1][1]) for i in range(1, len(coords)))
-    path_len = max(path_len, 1)
+
+    # Cubic Bezier segments pass through the real observations while rounding
+    # transitions at isolated peaks. Control points are clamped to the segment.
+    def smooth_path(points: list[tuple[float, float, int]]) -> tuple[str, float]:
+        if not points:
+            return "", 0.0
+        if len(points) == 1:
+            return f"M {points[0][0]:.2f} {points[0][1]:.2f}", 1.0
+        commands = [f"M {points[0][0]:.2f} {points[0][1]:.2f}"]
+        curve_length = 0.0
+        for i in range(len(points) - 1):
+            p0 = points[max(0, i - 1)]
+            p1 = points[i]
+            p2 = points[i + 1]
+            p3 = points[min(len(points) - 1, i + 2)]
+            c1x = p1[0] + (p2[0] - p0[0]) / 6
+            c1y = p1[1] + (p2[1] - p0[1]) / 6
+            c2x = p2[0] - (p3[0] - p1[0]) / 6
+            c2y = p2[1] - (p3[1] - p1[1]) / 6
+            low_y, high_y = sorted((p1[1], p2[1]))
+            c1y = max(low_y, min(high_y, c1y))
+            c2y = max(low_y, min(high_y, c2y))
+            commands.append(f"C {c1x:.2f} {c1y:.2f}, {c2x:.2f} {c2y:.2f}, {p2[0]:.2f} {p2[1]:.2f}")
+
+            # Numerically estimate this cubic segment's arc length so the stroke
+            # draw animation reaches the true end of the smoother curve.
+            previous = (p1[0], p1[1])
+            for step in range(1, 25):
+                t = step / 24
+                u = 1 - t
+                x = u**3 * p1[0] + 3*u*u*t*c1x + 3*u*t*t*c2x + t**3*p2[0]
+                y = u**3 * p1[1] + 3*u*u*t*c1y + 3*u*t*t*c2y + t**3*p2[1]
+                curve_length += math.hypot(x - previous[0], y - previous[1])
+                previous = (x, y)
+        return " ".join(commands), max(curve_length, 1.0)
+
+    path_d, path_len = smooth_path(coords)
+    area_d = f"{path_d} L {coords[-1][0]:.2f} {bottom:.2f} L {coords[0][0]:.2f} {bottom:.2f} Z"
+
+    if scale_max <= 6:
+        tick_values = list(range(scale_max, -1, -1))
+    else:
+        tick_values = sorted(set([scale_max, round(scale_max * .75), round(scale_max * .5), round(scale_max * .25), 0]), reverse=True)
 
     grid = []
-    for j in range(5):
-        y = top + (bottom - top) * j / 4
-        val = scale_max * (4-j) / 4
-        grid.append(f'<line x1="{left}" y1="{y:.2f}" x2="{right}" y2="{y:.2f}" stroke="{BORDER}" stroke-opacity=".6" stroke-dasharray="4 8"/>')
-        grid.append(f'<text x="{left-18}" y="{y+5:.2f}" text-anchor="end" fill="{MUTED}" font-size="12">{int(round(val))}</text>')
+    for val in tick_values:
+        y = bottom - (bottom - top) * val / scale_max
+        grid.append(f'<line x1="{left}" y1="{y:.2f}" x2="{right}" y2="{y:.2f}" stroke="{BORDER}" stroke-opacity=".66" stroke-dasharray="3 8"/>')
+        grid.append(f'<text x="{left-20}" y="{y+4:.2f}" text-anchor="end" fill="{MUTED}" font-size="12">{val}</text>')
 
     xticks = []
-    tick_indexes = sorted(set([0, 7, 14, 21, 30 if len(coords) > 30 else len(coords)-1]))
+    tick_indexes = sorted(set([0, 7, 14, 21, min(30, len(coords) - 1)]))
     for idx in tick_indexes:
         if 0 <= idx < len(points_data):
             date = points_data[idx][0]
             x = coords[idx][0]
             label = date.strftime("%b ") + str(date.day)
-            xticks.append(f'<text x="{x:.2f}" y="294" text-anchor="middle" fill="{MUTED}" font-size="12">{label}</text>')
+            xticks.append(f'<text x="{x:.2f}" y="294" text-anchor="middle" fill="{MUTED}" font-size="12">{html.escape(label)}</text>')
 
-    circles = []
-    n = max(1, len(coords)-1)
+    markers = []
+    n = max(1, len(coords) - 1)
     for i, (x, y, count) in enumerate(coords):
-        delay = 0.5 + (i/n)*1.9
-        radius = 3.1 if count == 0 else 4.1
-        circles.append(f'<circle cx="{x:.2f}" cy="{y:.2f}" r="{radius}" fill="{CYAN if count else BLUE}" stroke="{NAVY}" stroke-width="1.5" opacity="1"><animate attributeName="opacity" values="0;1" begin="{delay:.2f}s" dur=".35s" fill="freeze"/><animate attributeName="r" values="1;{radius}" begin="{delay:.2f}s" dur=".35s" fill="freeze"/></circle>')
+        delay = 0.35 + (i / n) * 1.75
+        if count > 0:
+            markers.append(f'<circle cx="{x:.2f}" cy="{y:.2f}" r="8.5" fill="{CYAN}" opacity=".12"><animate attributeName="opacity" values=".04;.22;.08" dur="3s" begin="{delay:.2f}s" repeatCount="indefinite"/></circle>')
+            radius, fill = 4.5, CYAN
+        else:
+            radius, fill = 2.35, BLUE
+        markers.append(f'<circle cx="{x:.2f}" cy="{y:.2f}" r="{radius}" fill="{fill}" stroke="{NAVY}" stroke-width="1.3"><animate attributeName="r" values="{radius-0.5};{radius};{radius-0.5}" dur="3.4s" begin="{delay:.2f}s" repeatCount="indefinite"/></circle>')
 
     last_total = sum(count for _, count in points_data)
     start_label = points_data[0][0].strftime("%b ") + str(points_data[0][0].day)
     end_label = points_data[-1][0].strftime("%b ") + str(points_data[-1][0].day)
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">
-<title id="title">GitHub contributions over the last 31 days</title><desc id="desc">A local chart based on {len(points_data)} daily contribution records from {html.escape(start_label)} to {html.escape(end_label)}. Total activity during this period: {last_total} contributions.</desc>
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="340" viewBox="0 0 1120 340" role="img" aria-labelledby="title desc">
+<title id="title">GitHub contributions over the last 31 days</title>
+<desc id="desc">A smooth line chart based on {len(points_data)} daily contribution records from {html.escape(start_label)} to {html.escape(end_label)}. Total activity during this period: {last_total} contributions.</desc>
 <defs>
  <linearGradient id="chartbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{PANEL}"/><stop offset="1" stop-color="{NAVY}"/></linearGradient>
- <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{BLUE}"/><stop offset=".55" stop-color="{CYAN}"/><stop offset="1" stop-color="{TEAL}"/></linearGradient>
- <linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{CYAN}" stop-opacity=".28"/><stop offset="1" stop-color="{CYAN}" stop-opacity=".005"/></linearGradient>
- <filter id="softglow" x="-20%" y="-40%" width="140%" height="180%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{BLUE}"/><stop offset=".48" stop-color="{CYAN}"/><stop offset="1" stop-color="{TEAL}"/></linearGradient>
+ <linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{CYAN}" stop-opacity=".23"/><stop offset="1" stop-color="{CYAN}" stop-opacity=".01"/></linearGradient>
+ <filter id="softglow" x="-20%" y="-40%" width="140%" height="180%"><feGaussianBlur stdDeviation="2.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
 <style>
- .line{{stroke-dasharray:{path_len:.1f};stroke-dashoffset:0;animation:draw 2.5s cubic-bezier(.22,.7,.2,1) .25s both}}
- .area{{opacity:.55;animation:fade 1.2s ease-out .7s both}}
- .header{{opacity:1;animation:up .65s ease-out .1s both}}
- @keyframes draw{{from{{stroke-dashoffset:{path_len:.1f}}}to{{stroke-dashoffset:0}}}} @keyframes fade{{from{{opacity:0}}to{{opacity:.55}}}} @keyframes up{{from{{opacity:0;transform:translateY(8px)}}to{{opacity:1;transform:translateY(0)}}}}
+ .line{{stroke-dasharray:{path_len:.1f};stroke-dashoffset:{path_len:.1f};animation:draw 2.8s cubic-bezier(.3,.7,.2,1) .25s forwards}}
+ .area{{opacity:0;animation:fade 1.3s ease-out .65s forwards}}
+ .header{{opacity:0;animation:up .65s ease-out .12s forwards}}
+ @keyframes draw{{to{{stroke-dashoffset:0}}}} @keyframes fade{{to{{opacity:.58}}}} @keyframes up{{from{{opacity:0;transform:translateY(7px)}}to{{opacity:1;transform:translateY(0)}}}}
  @media (prefers-reduced-motion:reduce){{.line{{stroke-dashoffset:0;animation:none}}.area,.header{{opacity:1;animation:none}}}}
 </style>
 <rect x="1" y="1" width="1118" height="338" rx="18" fill="url(#chartbg)" stroke="{BORDER}"/>
 <circle cx="22" cy="22" r="4" fill="#FF6B6B"/><circle cx="37" cy="22" r="4" fill="{GOLD}"/><circle cx="52" cy="22" r="4" fill="{TEAL}"/>
-<g class="header" font-family="Segoe UI,Arial,sans-serif"><text x="76" y="27" fill="{TEXT}" font-size="13" font-weight="700" letter-spacing="1.1">GITHUB ACTIVITY</text><text x="76" y="47" fill="{MUTED}" font-size="11">{html.escape(start_label)} — {html.escape(end_label)} · {last_total} contributions</text><text x="1080" y="28" fill="{TEAL}" font-size="12" text-anchor="end">LAST 31 DAYS</text></g>
+<g class="header" font-family="Segoe UI,Arial,sans-serif"><text x="76" y="27" fill="{TEXT}" font-size="13" font-weight="700" letter-spacing="1.1">GITHUB ACTIVITY</text><text x="76" y="47" fill="{MUTED}" font-size="11">{html.escape(start_label)} — {html.escape(end_label)} · {last_total} contributions</text><text x="1084" y="28" fill="{TEAL}" font-size="12" text-anchor="end">LAST 31 DAYS</text></g>
 {''.join(grid)}
 <path class="area" d="{area_d}" fill="url(#area)"/>
-<path class="line" d="{path_d}" fill="none" stroke="url(#line)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#softglow)"/>
-{''.join(circles)}
+<path class="line" d="{path_d}" fill="none" stroke="url(#line)" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round" filter="url(#softglow)"/>
+{''.join(markers)}
 {''.join(xticks)}
-<text x="1080" y="322" text-anchor="end" fill="{MUTED}" font-size="11">Generated from contribution snapshot</text>
+<text x="1084" y="322" text-anchor="end" fill="{MUTED}" font-size="11">LOCAL · DAILY ACTIVITY SNAPSHOT</text>
 </svg>'''
 
 
