@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
+<title id="title">Leadership Experience</title><desc id="desc">Two team-lead projects: AyuScout AI for AI for Bharat Hackathon and VeriDoc AI for AI Build Challenge Bengaluru.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1220"/><stop offset="1" stop-color="#101B2D"/></linearGradient><linearGradient id="teal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2DD4BF"/><stop offset="1" stop-color="#38BDF8"/></linearGradient><linearGradient id="violet" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#60A5FA"/></linearGradient></defs>
+<rect x="1" y="1" width="1198" height="248" rx="18" fill="url(#bg)" stroke="#25364D"/>
+<path d="M25 62 H1175" stroke="#24364B"/>
+<text x="30" y="38" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="3" fill="#93A4BA">LEADERSHIP / PRODUCT DIRECTION</text>
+<rect x="30" y="82" width="550" height="135" rx="13" fill="#0F766E" fill-opacity="0.13" stroke="#2DD4BF" stroke-opacity="0.65"/>
+<circle cx="67" cy="119" r="17" fill="#0F766E"/><text x="67" y="125" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#ECFEFF">01</text>
+<text x="98" y="125" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#5EEAD4">TEAM LEAD · HEALTH TECH</text>
+<text x="55" y="166" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#E6EDF3">AyuScout AI</text>
+<text x="55" y="194" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#A9B9CC">Safety signals · Privacy · Regulatory reporting</text>
+<rect x="620" y="82" width="550" height="135" rx="13" fill="#6D28D9" fill-opacity="0.12" stroke="#A78BFA" stroke-opacity="0.75"/>
+<circle cx="657" cy="119" r="17" fill="#6D28D9"/><text x="657" y="125" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#F5F3FF">02</text>
+<text x="688" y="125" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#C4B5FD">TEAM LEAD · AI SYSTEMS</text>
+<text x="645" y="166" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#E6EDF3">VeriDoc AI</text>
+<text x="645" y="194" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#A9B9CC">Offline RAG · Hybrid retrieval · Evidence verification</text>
+<path d="M30 232 H1170" stroke="url(#teal)" stroke-width="2" stroke-linecap="round"/>
+</svg>
