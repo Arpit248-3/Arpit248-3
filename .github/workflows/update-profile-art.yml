@@ -30,10 +30,10 @@ jobs:
         env:
           GH_PROFILE_USER: Arpit248-3
 
-      - name: Render animated visual assets and local activity line chart
+      - name: Render the refined hero, tagline, section headings, and activity chart
         run: python scripts/render_profile_visuals.py
 
-      - name: Render annual animated contribution heatmap
+      - name: Render annual contribution heatmap
         run: python scripts/generate_streak_svg.py Arpit248-3 contrib-heatmap.svg
 
       - name: Render statistics dashboard

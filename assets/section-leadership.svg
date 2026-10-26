@@ -1,23 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="72" viewBox="0 0 1100 72" role="img" aria-labelledby="title">
-<title id="title">02 — LEADERSHIP EXPERIENCE</title>
-<defs><linearGradient id="panel" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2DD4BF" stop-opacity=".20"/><stop offset=".55" stop-color="#0E1B2D" stop-opacity=".96"/><stop offset="1" stop-color="#10243B"/></linearGradient><linearGradient id="beam"><stop offset="0" stop-color="#2DD4BF" stop-opacity="0"/><stop offset=".5" stop-color="#2DD4BF"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></linearGradient></defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="76" viewBox="0 0 1200 76" role="img" aria-labelledby="title">
+<title id="title">03 — LEADERSHIP EXPERIENCE</title>
+<defs>
+ <linearGradient id="sectionLine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2DD4BF" stop-opacity=".95"/><stop offset=".55" stop-color="#22D3EE" stop-opacity=".72"/><stop offset="1" stop-color="#A78BFA" stop-opacity=".05"/></linearGradient>
+ <filter id="tinyGlow" x="-40%" y="-80%" width="180%" height="260%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
 <style>
- .card{opacity:1;transform:translateX(0);animation:slide .72s cubic-bezier(.2,.8,.2,1) 0.16s both}
- .beam{stroke-dasharray:260;stroke-dashoffset:260;animation:draw 1.45s ease-out 0.38s forwards}
- .dot{animation:blink 2.8s ease-in-out 0.16s infinite}
- @keyframes slide{from{opacity:0;transform:translateX(-26px)}to{opacity:1;transform:translateX(0)}}
- @keyframes draw{to{stroke-dashoffset:0}}
- @keyframes blink{0%,100%{opacity:.35}50%{opacity:1}}
- @media (prefers-reduced-motion:reduce){.card{opacity:1;transform:none;animation:none}.beam{stroke-dashoffset:0;animation:none}.dot{animation:none;opacity:1}}
+ .titleGroup{animation:reveal .72s cubic-bezier(.2,.8,.2,1) .06s}
+ .rule{stroke-dasharray:920;stroke-dashoffset:0;animation:draw 1.45s cubic-bezier(.2,.8,.2,1) .2s}
+ .pulse{animation:pulse 2.8s ease-in-out infinite}
+ @keyframes reveal{from{opacity:0;transform:translateX(-22px)}to{opacity:1;transform:translateX(0)}}
+ @keyframes draw{from{stroke-dashoffset:920}to{stroke-dashoffset:0}}
+ @keyframes pulse{0%,100%{opacity:.4}50%{opacity:1}}
+ @media (prefers-reduced-motion:reduce){.titleGroup{opacity:1;transform:none;animation:none}.rule{stroke-dashoffset:0;animation:none}.pulse{animation:none;opacity:.8}}
 </style>
-<g class="card">
- <rect x="2" y="2" width="1096" height="68" rx="13" fill="url(#panel)" stroke="#29415A" stroke-opacity=".95"/>
- <rect x="2" y="2" width="6" height="68" rx="3" fill="#2DD4BF"/>
- <text x="33" y="44" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="800" fill="#2DD4BF" letter-spacing="2">02</text>
- <text x="88" y="44" font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="750" fill="#E6F1FF" letter-spacing="1.2">LEADERSHIP EXPERIENCE</text>
- <path d="M87 57 H1060" stroke="#29415A" stroke-width="1.2"/>
- <path class="beam" d="M87 57 H350" stroke="url(#beam)" stroke-width="2.8" stroke-linecap="round"/>
- <circle class="dot" cx="1060" cy="36" r="5" fill="#2DD4BF"/>
- <circle cx="1060" cy="36" r="10" fill="none" stroke="#2DD4BF" stroke-opacity=".32"/>
+<g class="titleGroup">
+ <text x="10" y="42" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#2DD4BF" letter-spacing="1.5">03</text>
+ <g transform="translate(62 17)" stroke="#2DD4BF" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none" filter="url(#tinyGlow)"><circle cx="12" cy="6" r="3"/><circle cx="5" cy="18" r="2.5"/><circle cx="19" cy="18" r="2.5"/><path d="M12 9v4M5 15v-2h14v2"/></g>
+ <text x="105" y="44" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="26" font-weight="700" fill="#E6F1FF" letter-spacing=".8">LEADERSHIP EXPERIENCE</text>
+ <path d="M105 60 H1180" stroke="#29415A" stroke-width="1.1" stroke-opacity=".9"/>
+ <path class="rule" d="M105 60 H450" stroke="url(#sectionLine)" stroke-width="2.4" stroke-linecap="round" filter="url(#tinyGlow)" fill="none"/>
+ <circle class="pulse" cx="1180" cy="60" r="2.8" fill="#2DD4BF"/>
 </g>
 </svg>

@@ -1,25 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="82" viewBox="0 0 1200 82" role="img" aria-labelledby="title desc">
-<title id="title">Arpit Jham — rotating developer tagline</title>
-<desc id="desc">Transparent animated type that cycles between building scalable projects, designing premium user interfaces, and lead developer and AI product engineering.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="72" viewBox="0 0 1200 72" role="img" aria-labelledby="title desc">
+<title id="title">Arpit Jham — rotating professional tagline</title>
+<desc id="desc">A transparent tagline that fades between building scalable projects, designing premium user interfaces, and lead developer and AI product engineering.</desc>
 <defs>
- <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#60A5FA"/><stop offset=".46" stop-color="#22D3EE"/><stop offset="1" stop-color="#5EEAD4"/></linearGradient>
- <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity=".8"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
- <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#60A5FA" stop-opacity=".12"/><stop offset=".5" stop-color="#22D3EE" stop-opacity=".75"/><stop offset="1" stop-color="#5EEAD4" stop-opacity=".12"/></linearGradient>
- <filter id="softglow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="3.1" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <linearGradient id="taglineGradient" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#60A5FA"/><stop offset=".5" stop-color="#22D3EE"/><stop offset="1" stop-color="#5EEAD4"/></linearGradient>
+ <linearGradient id="underlineGradient" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#60A5FA" stop-opacity=".05"/><stop offset=".5" stop-color="#22D3EE" stop-opacity=".8"/><stop offset="1" stop-color="#5EEAD4" stop-opacity=".05"/></linearGradient>
+ <filter id="tagGlow" x="-20%" y="-70%" width="140%" height="240%"><feGaussianBlur stdDeviation="2.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
 <style>
- .phrase{font-family:'Times New Roman',Georgia,serif;font-size:25px;font-weight:700;font-style:italic;letter-spacing:1.7px;fill:url(#g);filter:url(#softglow)}
- .shine{animation:scan 4.8s ease-in-out infinite}
- .underline{stroke-dasharray:250;stroke-dashoffset:250;animation:draw 4s ease-in-out infinite}
- @keyframes scan{0%{transform:translateX(-550px);opacity:0}22%{opacity:.85}58%{opacity:0}100%{transform:translateX(550px);opacity:0}}
- @keyframes draw{0%,8%{stroke-dashoffset:250;opacity:.25}42%,60%{stroke-dashoffset:0;opacity:.9}100%{stroke-dashoffset:-250;opacity:.2}}
- @media (prefers-reduced-motion:reduce){.shine,.underline{animation:none}.shine{opacity:.25}.underline{stroke-dashoffset:0}}
+ .phrase{font-family:'Times New Roman',Georgia,serif;font-size:25px;font-style:italic;font-weight:700;letter-spacing:1.35px;fill:url(#taglineGradient);filter:url(#tagGlow)}
+ .underline{stroke-dasharray:860;stroke-dashoffset:860;animation:drawLine 9s ease-in-out infinite}
+ .spark{animation:travel 3.2s ease-in-out infinite alternate}
+ @keyframes drawLine{0%,5%{stroke-dashoffset:860;opacity:.25}28%,55%{stroke-dashoffset:0;opacity:.9}100%{stroke-dashoffset:-860;opacity:.2}}
+ @keyframes travel{from{transform:translateX(0);opacity:.1}to{transform:translateX(820px);opacity:.85}}
+ @media (prefers-reduced-motion:reduce){.underline,.spark{animation:none}.underline{stroke-dashoffset:0}.spark{opacity:.5}}
 </style>
-<!-- Transparent canvas: only the type, a faint baseline, and moving light are rendered. -->
-<text class="phrase" x="600" y="42" text-anchor="middle" opacity="1">BUILDING SCALABLE PROJECTS<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.04;.25;.32;1" dur="9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 9;0 0;0 0;0 -8;0 -8" keyTimes="0;.04;.25;.32;1" dur="9s" repeatCount="indefinite"/></text>
-<text class="phrase" x="600" y="42" text-anchor="middle" opacity="0">DESIGNING PREMIUM USER INTERFACES<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.32;.37;.60;.66;1" dur="9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 9;0 9;0 0;0 0;0 -8;0 -8" keyTimes="0;.32;.37;.60;.66;1" dur="9s" repeatCount="indefinite"/></text>
-<text class="phrase" x="600" y="42" text-anchor="middle" opacity="0">LEAD DEVELOPER · AI PRODUCT ENGINEERING<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.66;.71;.94;1" dur="9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 9;0 9;0 0;0 0;0 -8" keyTimes="0;.66;.71;.94;1" dur="9s" repeatCount="indefinite"/></text>
-<path d="M150 66 H1050" stroke="url(#line)" stroke-width="1.5" stroke-linecap="round"/>
-<path class="underline" d="M300 66 H900" stroke="url(#g)" stroke-width="2.1" stroke-linecap="round" fill="none"/>
-<rect class="shine" x="0" y="64" width="300" height="4" rx="2" fill="url(#shine)"/>
+<!-- Only text and fine rules are drawn: the canvas remains transparent. -->
+<text class="phrase" x="600" y="38" text-anchor="middle" opacity="1">BUILDING SCALABLE PROJECTS<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.05;.25;.31;1" dur="9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 0;0 0;0 -7;0 -7" keyTimes="0;.05;.25;.31;1" dur="9s" repeatCount="indefinite"/></text>
+<text class="phrase" x="600" y="38" text-anchor="middle" opacity="0">DESIGNING PREMIUM USER INTERFACES<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.31;.36;.60;.66;1" dur="9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 8;0 0;0 0;0 -7;0 -7" keyTimes="0;.31;.36;.60;.66;1" dur="9s" repeatCount="indefinite"/></text>
+<text class="phrase" x="600" y="38" text-anchor="middle" opacity="0">LEAD DEVELOPER · AI PRODUCT ENGINEERING<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.66;.71;.94;1" dur="9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 8;0 0;0 0;0 -7" keyTimes="0;.66;.71;.94;1" dur="9s" repeatCount="indefinite"/></text>
+<path d="M120 58 H1080" stroke="url(#underlineGradient)" stroke-width="1.5" stroke-linecap="round"/>
+<path class="underline" d="M230 58 H970" stroke="url(#taglineGradient)" stroke-width="2.1" stroke-linecap="round" fill="none"/>
+<circle class="spark" cx="230" cy="58" r="2.6" fill="#67E8F9" opacity="0"/>
 </svg>
