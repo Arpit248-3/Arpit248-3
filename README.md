@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<h1>Arpit Anshuman</h1>
+<h1>Arpit Jham</h1>
 
 <p><code>arpit@github ~ $ ./contributions.sh</code></p>
 
