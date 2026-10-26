@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="64" viewBox="0 0 1200 64" role="img" aria-labelledby="title">
+<title id="title">Engineering reliable AI products, designing clear interfaces, leading teams to delivery</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#60A5FA"/><stop offset=".52" stop-color="#22D3EE"/><stop offset="1" stop-color="#2DD4BF"/></linearGradient><linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity=".7"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs>
+<style>
+  .caption{font-family:'JetBrains Mono',Consolas,monospace;font-size:19px;font-weight:700;letter-spacing:.35px;fill:url(#g)}
+  .sweep{animation:sweep 4.8s ease-in-out infinite}
+  @keyframes sweep{0%{transform:translateX(-520px);opacity:0}18%{opacity:.8}58%{transform:translateX(520px);opacity:0}100%{transform:translateX(520px);opacity:0}}
+  @media (prefers-reduced-motion:reduce){.sweep{animation:none;display:none}}
+</style>
+<rect width="1200" height="64" rx="14" fill="#0E1B2D" fill-opacity=".9" stroke="#29415A" stroke-opacity=".8"/>
+<text class="caption" x="600" y="36" text-anchor="middle">ENGINEERING RELIABLE AI PRODUCTS  ·  DESIGNING CLEAR INTERFACES  ·  LEADING TEAMS TO DELIVERY</text>
+<path d="M26 51 H1174" stroke="#29415A" stroke-width="1"/><path d="M26 51 H1174" stroke="url(#g)" stroke-width="2.2" stroke-linecap="round" opacity=".65"/>
+<rect class="sweep" x="0" y="49" width="330" height="4" rx="2" fill="url(#shine)"/>
+</svg>

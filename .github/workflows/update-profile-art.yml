@@ -1,9 +1,9 @@
 name: Update profile art
 
-"on":
+on:
   schedule:
     - cron: "17 6 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
   push:
     branches: [main]
 
@@ -11,32 +11,36 @@ permissions:
   contents: write
 
 jobs:
-  heatmap:
+  update-art:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out profile repository
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install -r scripts/requirements.txt
+        run: python -m pip install -r scripts/requirements.txt
 
       - name: Fetch contribution data
         run: python scripts/fetch_contributions.py
         env:
           GH_PROFILE_USER: Arpit248-3
 
-      - name: Render animated contribution graph
+      - name: Render animated visual assets and local activity line chart
+        run: python scripts/render_profile_visuals.py
+
+      - name: Render annual animated contribution heatmap
         run: python scripts/generate_streak_svg.py Arpit248-3 contrib-heatmap.svg
 
-      - name: Render statistics card
+      - name: Render statistics dashboard
         run: python scripts/render_stats_svg.py
 
-      - name: Commit updated graphics
+      - name: Commit refreshed profile visuals
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: refresh contribution graphics [skip ci]"
-          file_pattern: "data/contributions.json contrib-heatmap.svg stats.svg"
+          commit_message: "chore: refresh profile visuals [skip ci]"
+          file_pattern: "data/contributions.json contrib-heatmap.svg stats.svg activity-graph.svg assets/*.svg"

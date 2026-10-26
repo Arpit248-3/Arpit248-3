@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="244" viewBox="0 0 1200 244" role="img" aria-labelledby="title desc">
+<title id="title">Arpit Jham — Team Lead, Full-Stack Developer, AI Product Engineering</title>
+<desc id="desc">An animated midnight-blue and teal profile banner with moving light trails.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#080D1B"/><stop offset=".48" stop-color="#123451"/><stop offset="1" stop-color="#075E61"/></linearGradient>
+  <linearGradient id="name" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F8FAFC"/><stop offset=".48" stop-color="#93C5FD"><animate attributeName="offset" values=".35;.62;.35" dur="6s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#5EEAD4"/></linearGradient>
+  <linearGradient id="trail" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#60A5FA" stop-opacity="0"/><stop offset=".5" stop-color="#22D3EE" stop-opacity=".9"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/></linearGradient>
+  <radialGradient id="orb"><stop offset="0" stop-color="#22D3EE" stop-opacity=".28"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+  <clipPath id="round"><rect x="0" y="0" width="1200" height="244" rx="18"/></clipPath>
+  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+  .orb1{animation:drift1 11s ease-in-out infinite alternate;transform-origin:center}
+  .orb2{animation:drift2 14s ease-in-out infinite alternate;transform-origin:center}
+  .trail{animation:trace 5.6s ease-in-out infinite}
+  .hero{opacity:1;animation:enter .95s cubic-bezier(.2,.8,.2,1) .15s both}
+  .sub{opacity:1;animation:enter .8s ease-out .65s both}
+  .accent{animation:pulse 3.4s ease-in-out infinite}
+  @keyframes drift1{from{transform:translate(-30px,8px)}to{transform:translate(80px,-18px)}}
+  @keyframes drift2{from{transform:translate(45px,-8px)}to{transform:translate(-60px,18px)}}
+  @keyframes trace{0%{transform:translateX(-900px);opacity:0}20%{opacity:.95}70%{opacity:.8}100%{transform:translateX(1300px);opacity:0}}
+  @keyframes enter{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+  @keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}}
+  @media (prefers-reduced-motion:reduce){.orb1,.orb2,.trail,.hero,.sub,.accent{animation:none!important;opacity:1!important;transform:none!important}}
+</style>
+<g clip-path="url(#round)">
+  <rect width="1200" height="244" fill="url(#bg)"/>
+  <circle class="orb1" cx="235" cy="30" r="270" fill="url(#orb)"/>
+  <circle class="orb2" cx="1040" cy="240" r="360" fill="url(#orb)"/>
+  <path d="M0 192 C180 152 300 224 470 184 S780 150 930 192 S1100 228 1200 168 V244 H0Z" fill="#08111F" opacity=".38"/>
+  <path d="M0 210 C160 172 290 230 460 201 S780 174 960 211 S1100 220 1200 198" fill="none" stroke="#38BDF8" stroke-opacity=".22" stroke-width="1.5"/>
+  <g class="trail"><path d="M0 199 H1200" stroke="url(#trail)" stroke-width="2.2" filter="url(#glow)"/></g>
+  <g class="hero" text-anchor="middle">
+    <text x="600" y="98" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="2" fill="url(#name)" filter="url(#glow)">ARPIT JHAM</text>
+  </g>
+  <g class="sub" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif">
+    <text x="600" y="141" font-size="18" font-weight="700" letter-spacing=".65" fill="#E6F7FF">TEAM LEAD  |  FULL-STACK DEVELOPER  |  AI PRODUCT ENGINEERING</text>
+    <text x="600" y="171" font-size="13" letter-spacing="2.1" fill="#A9D8E8">BUILDING RELIABLE SOFTWARE · INTELLIGENT WORKFLOWS · USEFUL INTERFACES</text>
+  </g>
+  <rect class="accent" x="410" y="220" width="380" height="3" rx="1.5" fill="url(#trail)"/>
+</g>
+</svg>
