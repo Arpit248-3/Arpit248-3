@@ -13,14 +13,24 @@
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/arpit-jham-6963b628a"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Arpit Jham on LinkedIn" /></a>
+  <a href="https://linkedin.com/in/arpit-jham-6963b628a">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Arpit Jham on LinkedIn" />
+  </a>
   &nbsp;
-  <a href="https://leetcode.com/u/Arpit24Jh--8-3/"><img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=222222" alt="Arpit Jham's LeetCode profile" /></a>
+  <a href="https://leetcode.com/u/Arpit24Jh--8-3/">
+    <img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=222222" alt="Arpit Jham's LeetCode profile" />
+  </a>
   &nbsp;
-  <a href="https://github.com/Arpit248-3?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Projects-24292E?style=for-the-badge&logo=github&logoColor=white" alt="Explore GitHub projects" /></a>
+  <a href="https://github.com/Arpit248-3?tab=repositories">
+    <img src="https://img.shields.io/badge/GitHub-Projects-24292E?style=for-the-badge&logo=github&logoColor=white" alt="Explore GitHub projects" />
+  </a>
 </p>
 
-<p align="center"><a href="mailto:arpitjham23@gmail.com"><img src="https://img.shields.io/badge/Email-arpitjham23%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Arpit Jham at arpitjham23@gmail.com" /></a></p>
+<p align="center">
+  <a href="mailto:arpitjham23@gmail.com">
+    <img src="https://img.shields.io/badge/Email-arpitjham23%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Arpit Jham at arpitjham23@gmail.com" />
+  </a>
+</p>
 
 <p align="center"><sub>AI Product Engineering &nbsp;·&nbsp; Full-Stack Development &nbsp;·&nbsp; Team Leadership</sub></p>
 
@@ -55,7 +65,7 @@ My interests sit at the intersection of **reliable backend services, thoughtful 
     <td width="50%" valign="top">
       <p><strong>01 &nbsp;·&nbsp; TEAM LEAD</strong></p>
       <h3>AI for Bharat Hackathon 2026</h3>
-      <p><strong>Project:</strong> AyuScout AI</p>
+      <p><strong>Project:</strong> <a href="https://github.com/Arpit248-3/Pan-IIT">AyuScout AI ↗</a></p>
       <p>Led product development for a pharmacovigilance intelligence platform, aligning safety-signal review, patient-data protection, and regulatory reporting into one workflow.</p>
       <p><sub>SAFETY SIGNALS &nbsp;·&nbsp; PRIVACY &nbsp;·&nbsp; REGULATORY REPORTING</sub></p>
     </td>
@@ -103,37 +113,42 @@ My interests sit at the intersection of **reliable backend services, thoughtful 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <p><sub>HEALTH TECH &nbsp;·&nbsp; PRIVACY BY DESIGN</sub></p>
+      <p><sub>01 / HEALTH TECH &nbsp;·&nbsp; PRIVACY BY DESIGN</sub></p>
       <h3>🩺 AyuScout AI</h3>
       <p><strong>Pharmacovigilance Intelligence Platform</strong></p>
       <p>A React dashboard for adverse-event review, safety alerts, KPIs, drug exploration, and report management, backed by FastAPI REST APIs.</p>
+      <p><sub>KEY CAPABILITIES</sub></p>
       <ul>
         <li>PII detection and patient-identity masking</li>
         <li>Drug-name normalization with fuzzy matching</li>
         <li>ICH E2B(R3) XML report exports</li>
       </ul>
       <p><img src="https://skillicons.dev/icons?i=react,fastapi,sqlite&theme=dark" height="34" alt="React, FastAPI and SQLite" /></p>
+      <p><a href="https://github.com/Arpit248-3/Pan-IIT"><strong>View source repository ↗</strong></a> &nbsp;·&nbsp; <a href="https://ayuscout-frontend.onrender.com/">Live demo ↗</a></p>
     </td>
     <td width="50%" valign="top">
-      <p><sub>ENERGY TECH &nbsp;·&nbsp; EARLY WARNING</sub></p>
+      <p><sub>02 / ENERGY TECH &nbsp;·&nbsp; EARLY WARNING</sub></p>
       <h3>⚡ UrjaNetra AI</h3>
       <p><strong>Energy Supply-Chain Decision Support</strong></p>
       <p>An early-warning concept for import-dependent energy supply chains that combines weather, shipping, commodity, demand, and geopolitical signals.</p>
+      <p><sub>KEY CAPABILITIES</sub></p>
       <ul>
         <li>24-hour, 3-day, 7-day, and 30-day forecast horizons</li>
         <li>LSTM, Transformer, and XGBoost model approaches</li>
         <li>Risk heatmaps, geospatial alerts, and scenario planning</li>
       </ul>
-      <p><sub>FORECASTING &nbsp;·&nbsp; RISK SIGNALS &nbsp;·&nbsp; SCENARIOS</sub></p>
+      <p><img src="https://skillicons.dev/icons?i=python&theme=dark" height="34" alt="Python" /></p>
+      <p><a href="https://github.com/Arpit248-3/ET2"><strong>View source repository ↗</strong></a></p>
     </td>
   </tr>
   <tr>
     <td colspan="2" valign="top">
-      <p><sub>RETRIEVAL + VERIFICATION &nbsp;·&nbsp; EVIDENCE FOCUSED</sub></p>
+      <p><sub>03 / RETRIEVAL + VERIFICATION &nbsp;·&nbsp; EVIDENCE FOCUSED</sub></p>
       <h3>🔎 VeriDoc AI</h3>
       <p><strong>Offline RAG &amp; Evidence-Based Claim Verification</strong></p>
       <p>A hackathon project focused on offline retrieval-augmented generation, hybrid BM25 and dense retrieval, PII protection, and evidence-grounded claim verification for workflows where traceability matters.</p>
       <p><sub>OFFLINE RAG &nbsp;·&nbsp; HYBRID RETRIEVAL &nbsp;·&nbsp; PRIVACY &nbsp;·&nbsp; VERIFICATION</sub></p>
+      <p><a href="https://github.com/Arpit248-3?tab=repositories"><strong>Find project repository ↗</strong></a></p>
     </td>
   </tr>
 </table>
@@ -171,5 +186,7 @@ My interests sit at the intersection of **reliable backend services, thoughtful 
 
 ---
 
-<p align="center"><a href="mailto:arpitjham23@gmail.com"><strong>✉ Get in touch · arpitjham23@gmail.com</strong></a></p>
+<p align="center">
+  <a href="mailto:arpitjham23@gmail.com"><strong>✉ Get in touch · arpitjham23@gmail.com</strong></a>
+</p>
 <p align="center"><sub>Focused on useful interfaces, reliable systems, privacy-aware AI, and products built to solve real problems.</sub></p>
