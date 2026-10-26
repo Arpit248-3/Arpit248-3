@@ -1,4 +1,3 @@
-
 <!--
   ARPIT JHAM | GitHub profile README
   Visual system: midnight navy, electric blue, cyan, teal, violet and amber.
@@ -42,9 +41,11 @@ My interests sit at the intersection of **reliable backend services**, **thought
 <h2 align="center"><img src="./assets/section-contributions.svg" width="100%" alt="02 — Contributions" /></h2>
 
 <p align="center"><img src="https://img.shields.io/badge/RECENT%20ACTIVITY-LAST%2031%20DAYS-0891B2?style=flat-square" alt="Recent activity: last 31 days" /></p>
+
 <p align="center"><img src="./activity-graph.svg" width="100%" alt="GitHub activity line chart for the last 31 days" /></p>
 
 <p align="center"><img src="https://img.shields.io/badge/ANNUAL%20ACTIVITY-CONTRIBUTION%20HEATMAP-16A34A?style=flat-square" alt="Annual activity contribution heatmap" /></p>
+
 <p align="center"><img src="./contrib-heatmap.svg" width="100%" alt="Annual GitHub contribution heatmap" /></p>
 
 <p align="center">
@@ -75,45 +76,50 @@ My interests sit at the intersection of **reliable backend services**, **thought
 
 <h2 align="center"><img src="./assets/section-skills.svg" width="100%" alt="04 — Technical Skills" /></h2>
 
-<p align="center"><sub>Two-column engineering stack · technology logos and color-coded labels</sub></p>
+<p align="center"><sub>Full-stack toolkit · organized by engineering layer</sub></p>
 
+<!-- Two-column skills table. Longer focus badges help balance the intrinsic column widths in GitHub's README renderer. -->
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <p><img src="https://img.shields.io/badge/01-PROGRAMMING-2563EB?style=for-the-badge" alt="Programming" /></p>
-      <p><img src="https://skillicons.dev/icons?i=python,cpp,js,mysql&theme=dark" height="42" alt="Python, C++, JavaScript and MySQL" /></p>
+      <p><img src="https://img.shields.io/badge/01-PROGRAMMING%20%26%20QUERY-2563EB?style=for-the-badge" alt="Programming and query" /></p>
+      <p><img src="https://skillicons.dev/icons?i=python,cpp,js,mysql&theme=dark" height="42" alt="Python, C++, JavaScript and MySQL logos" /></p>
       <p><img src="https://img.shields.io/badge/PYTHON-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" /> <img src="https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=flat-square&logo=javascript&logoColor=111111" alt="JavaScript" /> <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="SQL" /></p>
+      <p><img src="https://img.shields.io/badge/FOCUS-LANGUAGE%20FUNDAMENTALS%20%7C%20DATA%20STRUCTURES%20%7C%20ALGORITHMS%20%7C%20SQL%20QUERYING-1D4ED8?style=flat-square" alt="Language fundamentals, data structures, algorithms and SQL querying" /></p>
     </td>
     <td width="50%" valign="top">
       <p><img src="https://img.shields.io/badge/02-FRONTEND%20%26%20UI-0891B2?style=for-the-badge" alt="Frontend and UI" /></p>
-      <p><img src="https://skillicons.dev/icons?i=react,vite&theme=dark" height="42" alt="React and Vite" /></p>
+      <p><img src="https://skillicons.dev/icons?i=react,vite&theme=dark" height="42" alt="React and Vite logos" /></p>
       <p><img src="https://img.shields.io/badge/REACT-61DAFB?style=flat-square&logo=react&logoColor=111111" alt="React" /> <img src="https://img.shields.io/badge/REACT%20NATIVE-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native" /> <img src="https://img.shields.io/badge/VITE-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" /></p>
-      <p><sub>UI architecture · state management</sub></p>
+      <p><img src="https://img.shields.io/badge/FOCUS-COMPONENT%20DESIGN%20%7C%20RESPONSIVE%20LAYOUTS%20%7C%20STATE%20MANAGEMENT-0891B2?style=flat-square" alt="Component design, responsive layouts and state management" /></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <p><img src="https://img.shields.io/badge/03-BACKEND%20%26%20APIs-0F766E?style=for-the-badge" alt="Backend and APIs" /></p>
-      <p><img src="https://skillicons.dev/icons?i=fastapi,django,nodejs,express&theme=dark" height="42" alt="FastAPI, Django, Node.js and Express" /></p>
+      <p><img src="https://skillicons.dev/icons?i=fastapi,django,nodejs,express&theme=dark" height="42" alt="FastAPI, Django, Node.js and Express logos" /></p>
       <p><img src="https://img.shields.io/badge/FASTAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" /> <img src="https://img.shields.io/badge/DJANGO-092E20?style=flat-square&logo=django&logoColor=white" alt="Django" /> <img src="https://img.shields.io/badge/NODE.JS-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" /></p>
-      <p><sub>Express.js · REST APIs</sub></p>
+      <p><img src="https://img.shields.io/badge/FOCUS-REST%20API%20DESIGN%20%7C%20INPUT%20VALIDATION%20%7C%20SERVICE%20INTEGRATION-0F766E?style=flat-square" alt="REST API design, input validation and service integration" /></p>
     </td>
     <td width="50%" valign="top">
       <p><img src="https://img.shields.io/badge/04-DATABASES-6D28D9?style=for-the-badge" alt="Databases" /></p>
-      <p><img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,sqlite&theme=dark" height="42" alt="MySQL, PostgreSQL, MongoDB and SQLite" /></p>
+      <p><img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,sqlite&theme=dark" height="42" alt="MySQL, PostgreSQL, MongoDB and SQLite logos" /></p>
       <p><img src="https://img.shields.io/badge/MYSQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" /> <img src="https://img.shields.io/badge/POSTGRESQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" /> <img src="https://img.shields.io/badge/MONGODB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" /> <img src="https://img.shields.io/badge/SQLITE-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" /></p>
+      <p><img src="https://img.shields.io/badge/FOCUS-SCHEMA%20DESIGN%20%7C%20RELATIONAL%20QUERIES%20%7C%20DATA%20MODELING-6D28D9?style=flat-square" alt="Schema design, relational queries and data modeling" /></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <p><img src="https://img.shields.io/badge/05-TOOLS%20%26%20DELIVERY-D97706?style=for-the-badge" alt="Tools and delivery" /></p>
-      <p><img src="https://skillicons.dev/icons?i=git,github,vercel,vscode,anaconda&theme=dark" height="42" alt="Git, GitHub, Vercel, VS Code and Anaconda" /></p>
-      <p><sub>Git · GitHub · Vercel · VS Code · Anaconda</sub></p>
+      <p><img src="https://skillicons.dev/icons?i=git,github,vercel,vscode,anaconda&theme=dark" height="42" alt="Git, GitHub, Vercel, VS Code and Anaconda logos" /></p>
+      <p><img src="https://img.shields.io/badge/GIT-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" /> <img src="https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /> <img src="https://img.shields.io/badge/VERCEL-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" /> <img src="https://img.shields.io/badge/VS%20CODE-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code" /> <img src="https://img.shields.io/badge/ANACONDA-44A833?style=flat-square&logo=anaconda&logoColor=white" alt="Anaconda" /></p>
+      <p><img src="https://img.shields.io/badge/FOCUS-VERSION%20CONTROL%20%7C%20LOCAL%20DEVELOPMENT%20%7C%20DEPLOYMENT-D97706?style=flat-square" alt="Version control, local development and deployment" /></p>
     </td>
     <td width="50%" valign="top">
       <p><img src="https://img.shields.io/badge/06-AI%20%26%20RETRIEVAL-4338CA?style=for-the-badge" alt="AI and retrieval" /></p>
       <p><img src="https://img.shields.io/badge/LSTM-2563EB?style=flat-square" alt="LSTM" /> <img src="https://img.shields.io/badge/TRANSFORMERS-6D28D9?style=flat-square" alt="Transformers" /> <img src="https://img.shields.io/badge/XGBOOST-0F766E?style=flat-square" alt="XGBoost" /></p>
       <p><img src="https://img.shields.io/badge/RAG-6D28D9?style=flat-square" alt="RAG" /> <img src="https://img.shields.io/badge/BM25-0E7490?style=flat-square" alt="BM25" /> <img src="https://img.shields.io/badge/DENSE%20RETRIEVAL-1D4ED8?style=flat-square" alt="Dense retrieval" /></p>
+      <p><img src="https://img.shields.io/badge/FOCUS-FORECASTING%20%7C%20RETRIEVAL%20%7C%20EVIDENCE%20VERIFICATION-4338CA?style=flat-square" alt="Forecasting, retrieval and evidence verification" /></p>
     </td>
   </tr>
 </table>
