@@ -20,25 +20,7 @@
 
 </p>
 
-<p align="center">
-
-  <a href="https://linkedin.com/in/arpit-jham-6963b628a"><img src="https://img.shields.io/static/v1?label=LinkedIn&message=Connect&color=0A66C2&logo=linkedin&logoColor=white&style=for-the-badge" alt="Connect with Arpit Jham on LinkedIn" /></a>
-
-  &nbsp;
-
-  <a href="https://leetcode.com/u/Arpit24Jh--8-3/"><img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=222222" alt="Arpit Jham's LeetCode profile" /></a>
-
-  &nbsp;
-
-  <a href="https://github.com/Arpit248-3?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Projects-24292E?style=for-the-badge&logo=github&logoColor=white" alt="Explore GitHub projects" /></a>
-
-</p>
-
-<p align="center">
-
-  <a href="mailto:arpitjham23@gmail.com"><img src="https://img.shields.io/badge/Email-arpitjham23%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Arpit Jham at arpitjham23@gmail.com" /></a>
-
-</p>
+<p align="center"><a href="https://linkedin.com/in/arpit-jham-6963b628a"><img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="18" height="18" alt="LinkedIn" />&nbsp;LinkedIn</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://leetcode.com/u/Arpit24Jh--8-3/"><img src="https://cdn.simpleicons.org/leetcode/FFA116" width="18" height="18" alt="LeetCode" />&nbsp;LeetCode</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/Arpit248-3?tab=repositories"><img src="https://cdn.simpleicons.org/github/E6EDF3" width="18" height="18" alt="GitHub" />&nbsp;GitHub</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="mailto:arpitjham23@gmail.com"><img src="https://cdn.simpleicons.org/gmail/EA4335" width="18" height="18" alt="Email" />&nbsp;Email</a></p>
 
 ---
 
@@ -221,39 +203,23 @@ A hackathon project focused on offline retrieval-augmented generation, hybrid BM
 <p align="center"><img src="./assets/section-achievements-accent.svg" width="100%" alt="06 — Achievements" /></p>
 
 <table width="100%">
-
-  <tr>
-
-    <td width="50%" valign="top">
-
-      <p><img src="https://img.shields.io/badge/01-THEME%20WINNER-0F766E?style=for-the-badge" alt="Theme winner" /></p>
-
-      <h3>AI for Bharat Hackathon 2026</h3>
-
-      <p><strong>Patient Experience &amp; Safety Signals</strong></p>
-
-      <p>Theme winner with AyuScout AI; ranked <strong>Top 4 among 16,200+ registrations</strong>.</p>
-
-      <p><img src="https://img.shields.io/badge/TOP%204-16%2C200%2B%20REGISTRATIONS-1D4ED8?style=flat-square" alt="Top 4 among 16,200+ registrations" /></p>
-
-    </td>
-
-    <td width="50%" valign="top">
-
-      <p><img src="https://img.shields.io/badge/02-1ST%20RUNNER--UP-D97706?style=for-the-badge" alt="First runner-up" /></p>
-
-      <p><img src="./assets/achievement-ai-build-challenge.svg" width="100%" alt="First runner-up at AI Build Challenge Bengaluru, September 2026" /></p>
-
-      <h3>AI Build Challenge Bengaluru</h3>
-
-      <p><strong>Masters’ Union Ventures · Powered by Hackingly</strong></p>
-
-      <p>1st Runner-Up · September 2026.</p>
-
-    </td>
-
-  </tr>
-
+<tr>
+<td width="50%" valign="top">
+<p><img src="https://img.shields.io/badge/01-THEME%20WINNER-0F766E?style=for-the-badge" alt="Theme winner" /></p>
+<p><img src="./assets/achievement-ai-for-bharat.svg" width="100%" alt="AI for Bharat Hackathon 2026 theme winner and Top 4 among 16,200+ registrations" /></p>
+<h3>AI for Bharat Hackathon 2026</h3>
+<p><strong>Patient Experience &amp; Safety Signals</strong></p>
+<p>Theme winner with AyuScout AI; ranked <strong>Top 4 among 16,200+ registrations</strong>.</p>
+<p><img src="https://img.shields.io/badge/TOP%204-16%2C200%2B%20REGISTRATIONS-1D4ED8?style=flat-square" alt="Top 4 among 16,200+ registrations" /></p>
+</td>
+<td width="50%" valign="top">
+<p><img src="https://img.shields.io/badge/02-1ST%20RUNNER--UP-D97706?style=for-the-badge" alt="First runner-up" /></p>
+<p><img src="./assets/achievement-ai-build-challenge.svg" width="100%" alt="First runner-up at AI Build Challenge Bengaluru, September 2026" /></p>
+<h3>AI Build Challenge Bengaluru</h3>
+<p><strong>Masters’ Union Ventures · Powered by Hackingly</strong></p>
+<p>1st Runner-Up · September 2026.</p>
+</td>
+</tr>
 </table>
 
 ---
