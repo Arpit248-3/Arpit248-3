@@ -34,17 +34,17 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = ROOT / "data" / "contributions.json"
 ASSETS = ROOT / "assets"
 
-NAVY = "#08111F"
-PANEL = "#0E1B2D"
-PANEL_2 = "#10243B"
-BLUE = "#60A5FA"
-CYAN = "#22D3EE"
-TEAL = "#2DD4BF"
-VIOLET = "#A78BFA"
-GOLD = "#FBBF24"
-TEXT = "#E6F1FF"
-MUTED = "#9FB3C8"
-BORDER = "#29415A"
+NAVY = "#0A0F1E"
+PANEL = "#11182A"
+PANEL_2 = "#17213A"
+BLUE = "#82A8FF"
+CYAN = "#55D6FF"
+TEAL = "#75D7D0"
+VIOLET = "#B5A2FF"
+GOLD = "#E9C46A"
+TEXT = "#E9EEFA"
+MUTED = "#A9B5CA"
+BORDER = "#28334A"
 
 
 def write_svg(path: Path, content: str) -> None:
@@ -64,65 +64,41 @@ HERO_LETTER_SPACING = 24
 
 
 def hero_svg() -> str:
-    text_width_units = 0
-    for i, char in enumerate(HERO_NAME):
-        text_width_units += HERO_SPACE_ADVANCE if char == " " else HERO_ADVANCES[char]
-        if char != " " and i < len(HERO_NAME) - 1:
-            text_width_units += HERO_LETTER_SPACING
-    start_x = (1200 - text_width_units * HERO_SCALE) / 2
-    baseline = 143
-    x_units = 0
-    glyph_markup = []
-    for i, char in enumerate(HERO_NAME):
-        if char == " ":
-            x_units += HERO_SPACE_ADVANCE
-            continue
-        x_px = start_x + x_units * HERO_SCALE
-        glyph_markup.append(
-            f'<path d="{HERO_GLYPHS[char]}" transform="translate({x_px:.2f},{baseline}) scale({HERO_SCALE},-{HERO_SCALE})"/>'
-        )
-        x_units += HERO_ADVANCES[char]
-        if i < len(HERO_NAME) - 1:
-            x_units += HERO_LETTER_SPACING
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="252" viewBox="0 0 1200 252" role="img" aria-labelledby="title desc">
-<title id="title">Arpit Jham — Team Lead · Full-Stack Developer · AI Product Engineering</title>
-<desc id="desc">Animated midnight-blue to teal hero. The name is vector-drawn in an elegant italic calligraphic style, with an editorial serif subtitle.</desc>
+    """Transparent editorial hero with refined typography, not a filled banner card."""
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="238" viewBox="0 0 1200 238" role="img" aria-labelledby="title desc">
+<title id="title">Arpit Jham — Team Lead, Full-Stack Developer and AI Product Engineering</title>
+<desc id="desc">A transparent hero with elegant italic serif lettering, midnight blue and periwinkle accents, and subtle animated light trails.</desc>
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07101D"/><stop offset=".43" stop-color="#112C49"/><stop offset="1" stop-color="#075B60"/></linearGradient>
- <linearGradient id="nameGradient" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F8FAFC"/><stop offset=".34" stop-color="#93C5FD"/><stop offset=".70" stop-color="#67E8F9"/><stop offset="1" stop-color="#5EEAD4"/></linearGradient>
- <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#60A5FA" stop-opacity="0"/><stop offset=".48" stop-color="#22D3EE" stop-opacity=".88"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/></linearGradient>
- <radialGradient id="aurora"><stop offset="0" stop-color="#22D3EE" stop-opacity=".20"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
- <clipPath id="rounded"><rect width="1200" height="252" rx="18"/></clipPath>
- <filter id="glow" x="-25%" y="-40%" width="150%" height="190%"><feGaussianBlur stdDeviation="3.3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <radialGradient id="heroHalo"><stop offset="0" stop-color="#4567B7" stop-opacity=".12"/><stop offset=".58" stop-color="#253D76" stop-opacity=".035"/><stop offset="1" stop-color="#0A0F1E" stop-opacity="0"/></radialGradient>
+ <linearGradient id="heroName" x1=".08" y1="0" x2=".94" y2="0"><stop offset="0" stop-color="#F4F7FF"/><stop offset=".34" stop-color="#A9C7FF"/><stop offset=".68" stop-color="#78DDF7"/><stop offset="1" stop-color="#B5A2FF"/></linearGradient>
+ <linearGradient id="heroRule" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#82A8FF" stop-opacity="0"/><stop offset=".3" stop-color="#82A8FF" stop-opacity=".8"/><stop offset=".68" stop-color="#55D6FF" stop-opacity=".8"/><stop offset="1" stop-color="#B5A2FF" stop-opacity="0"/></linearGradient>
+ <radialGradient id="orbital"><stop offset="0" stop-color="#55D6FF" stop-opacity=".10"/><stop offset="1" stop-color="#55D6FF" stop-opacity="0"/></radialGradient>
+ <filter id="wordGlow" x="-20%" y="-40%" width="140%" height="180%"><feGaussianBlur stdDeviation="1.8" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
 <style>
- .auroraA{{animation:driftA 12s ease-in-out infinite alternate;transform-origin:center}}
- .auroraB{{animation:driftB 15s ease-in-out infinite alternate;transform-origin:center}}
- .heroName{{animation:arrive 1.1s cubic-bezier(.2,.8,.2,1) .12s;fill:url(#nameGradient);stroke:#E0F2FE;stroke-opacity:.16;stroke-width:5;stroke-linejoin:round;filter:url(#glow)}}
- .subtitle{{animation:arrive .8s ease-out .58s}}
- .sweep{{animation:sweep 6s ease-in-out infinite}}
- @keyframes driftA{{from{{transform:translate(-30px,5px)}}to{{transform:translate(75px,-16px)}}}}
- @keyframes driftB{{from{{transform:translate(38px,-7px)}}to{{transform:translate(-70px,16px)}}}}
- @keyframes arrive{{from{{opacity:0;transform:translateY(14px)}}to{{opacity:1;transform:translateY(0)}}}}
- @keyframes sweep{{0%{{transform:translateX(-1000px);opacity:0}}18%{{opacity:.8}}75%{{opacity:.65}}100%{{transform:translateX(1300px);opacity:0}}}}
- @media (prefers-reduced-motion:reduce){{.auroraA,.auroraB,.heroName,.subtitle,.sweep{{animation:none!important;opacity:1!important;transform:none!important}}}}
+ .halo{{animation:haloDrift 11s ease-in-out infinite alternate;transform-origin:center}}
+ .word{{opacity:1;animation:wordIn 1.1s cubic-bezier(.2,.8,.2,1) .1s forwards}}
+ .role{{opacity:1;animation:roleIn .8s ease-out .45s forwards}}
+ .micro{{opacity:1;animation:roleIn .8s ease-out .72s forwards}}
+ .beam{{stroke-dasharray:520;stroke-dashoffset:520;animation:beamIn 1.8s ease-out .55s forwards}}
+ .spark{{animation:sparkMove 6s ease-in-out infinite alternate}}
+ @keyframes haloDrift{{from{{transform:translate(-26px,2px) scale(.96)}}to{{transform:translate(30px,-6px) scale(1.05)}}}}
+ @keyframes wordIn{{from{{opacity:0;transform:translateY(10px)}}to{{opacity:1;transform:translateY(0)}}}}
+ @keyframes roleIn{{from{{opacity:0;transform:translateY(6px)}}to{{opacity:1;transform:translateY(0)}}}}
+ @keyframes beamIn{{to{{stroke-dashoffset:0}}}}
+ @keyframes sparkMove{{from{{opacity:.25;transform:translateX(-12px)}}to{{opacity:.95;transform:translateX(12px)}}}}
+ @media (prefers-reduced-motion:reduce){{.halo,.word,.role,.micro,.beam,.spark{{animation:none!important;opacity:1;transform:none;stroke-dashoffset:0}}}}
 </style>
-<g clip-path="url(#rounded)">
- <rect width="1200" height="252" fill="url(#bg)"/>
- <circle class="auroraA" cx="250" cy="22" r="275" fill="url(#aurora)"/>
- <circle class="auroraB" cx="1010" cy="270" r="360" fill="url(#aurora)"/>
- <path d="M0 199 C160 157 310 225 480 192 S790 161 960 202 S1100 221 1200 177 V252 H0Z" fill="#020817" opacity=".30"/>
- <path d="M0 218 C165 178 300 232 476 210 S780 181 958 218 S1110 229 1200 204" fill="none" stroke="#38BDF8" stroke-opacity=".34" stroke-width="1.5"/>
- <g class="sweep"><path d="M0 211 H1200" stroke="url(#flow)" stroke-width="2.5" filter="url(#glow)"/></g>
- <g class="heroName">{''.join(glyph_markup)}</g>
- <g class="subtitle" text-anchor="middle" font-family="'Times New Roman',Georgia,serif">
-   <text x="600" y="180" font-size="23" font-weight="700" letter-spacing=".65" fill="#F1F5F9">TEAM LEAD  ·  FULL-STACK DEVELOPER  ·  AI PRODUCT ENGINEERING</text>
-   <text x="600" y="205" font-size="13" letter-spacing="2.3" fill="#A5F3FC">RELIABLE SOFTWARE  ·  CLEAR INTERFACES  ·  PRODUCT-FOCUSED AI</text>
- </g>
- <path d="M330 232 C455 232 505 237 600 232 S745 227 870 232" fill="none" stroke="url(#flow)" stroke-width="2.6" stroke-linecap="round"/>
-</g>
+<!-- Transparent canvas blends into GitHub's page; only typography, fine trails, and small orbital accents are drawn. -->
+<circle cx="128" cy="60" r="18" fill="none" stroke="#82A8FF" stroke-opacity=".20" stroke-width="1"/><circle cx="128" cy="60" r="2" fill="#82A8FF"/><circle cx="1072" cy="54" r="24" fill="none" stroke="#55D6FF" stroke-opacity=".18" stroke-width="1"/><circle cx="1072" cy="54" r="2" fill="#55D6FF"/>
+<path d="M70 182 C230 164 304 204 440 188 S690 177 812 190 S1010 205 1130 178" fill="none" stroke="#42608B" stroke-opacity=".28" stroke-width="1.2"/>
+<path d="M76 190 C240 174 310 211 450 194 S690 185 820 196 S1008 209 1124 185" fill="none" stroke="url(#heroRule)" stroke-opacity=".8" stroke-width="1.6"/>
+<g class="word" filter="url(#wordGlow)"><text x="600" y="100" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-style="italic" font-weight="600" letter-spacing=".5" fill="url(#heroName)">Arpit Jham</text></g>
+<g class="role" font-family="'Segoe UI', Arial, sans-serif"><text x="310" y="139" font-size="17" font-weight="650" letter-spacing=".7" fill="#E9EEFA">TEAM LEAD <tspan fill="#82A8FF">·</tspan> FULL-STACK DEVELOPER <tspan fill="#55D6FF">·</tspan> AI PRODUCT ENGINEERING</text></g>
+<g class="micro" font-family="'Segoe UI', Arial, sans-serif"><text x="350" y="166" font-size="11" font-weight="600" letter-spacing="2.05" fill="#A9B5CA">RELIABLE SOFTWARE  ·  CLEAR INTERFACES  ·  APPLIED AI</text></g>
+<path class="beam" d="M280 211 H920" stroke="url(#heroRule)" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+<circle class="spark" cx="280" cy="211" r="2.5" fill="#55D6FF"/>
 </svg>'''
-
 
 def tagline_svg() -> str:
     phrases = [
@@ -130,30 +106,29 @@ def tagline_svg() -> str:
         "DESIGNING PREMIUM USER INTERFACES",
         "LEAD DEVELOPER · AI PRODUCT ENGINEERING",
     ]
-    phrase_1, phrase_2, phrase_3 = map(html.escape, phrases)
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="72" viewBox="0 0 1200 72" role="img" aria-labelledby="title desc">
+    p1, p2, p3 = map(html.escape, phrases)
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="66" viewBox="0 0 1200 66" role="img" aria-labelledby="title desc">
 <title id="title">Arpit Jham — rotating professional tagline</title>
-<desc id="desc">A transparent tagline that fades between building scalable projects, designing premium user interfaces, and lead developer and AI product engineering.</desc>
+<desc id="desc">A transparent tagline cycling between scalable projects, premium interfaces, and AI product engineering.</desc>
 <defs>
- <linearGradient id="taglineGradient" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#60A5FA"/><stop offset=".5" stop-color="#22D3EE"/><stop offset="1" stop-color="#5EEAD4"/></linearGradient>
- <linearGradient id="underlineGradient" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#60A5FA" stop-opacity=".05"/><stop offset=".5" stop-color="#22D3EE" stop-opacity=".8"/><stop offset="1" stop-color="#5EEAD4" stop-opacity=".05"/></linearGradient>
- <filter id="tagGlow" x="-20%" y="-70%" width="140%" height="240%"><feGaussianBlur stdDeviation="2.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <linearGradient id="taglineGradient" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#82A8FF"/><stop offset=".48" stop-color="#55D6FF"/><stop offset="1" stop-color="#B5A2FF"/></linearGradient>
+ <linearGradient id="taglineRule" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#82A8FF" stop-opacity="0"/><stop offset=".5" stop-color="#55D6FF" stop-opacity=".72"/><stop offset="1" stop-color="#B5A2FF" stop-opacity="0"/></linearGradient>
 </defs>
 <style>
- .phrase{{font-family:'Times New Roman',Georgia,serif;font-size:25px;font-style:italic;font-weight:700;letter-spacing:1.35px;fill:url(#taglineGradient);filter:url(#tagGlow)}}
- .underline{{stroke-dasharray:860;stroke-dashoffset:860;animation:drawLine 9s ease-in-out infinite}}
- .spark{{animation:travel 3.2s ease-in-out infinite alternate}}
- @keyframes drawLine{{0%,5%{{stroke-dashoffset:860;opacity:.25}}28%,55%{{stroke-dashoffset:0;opacity:.9}}100%{{stroke-dashoffset:-860;opacity:.2}}}}
- @keyframes travel{{from{{transform:translateX(0);opacity:.1}}to{{transform:translateX(820px);opacity:.85}}}}
- @media (prefers-reduced-motion:reduce){{.underline,.spark{{animation:none}}.underline{{stroke-dashoffset:0}}.spark{{opacity:.5}}}}
+ .phrase{{font-family:'Segoe UI',Arial,sans-serif;font-size:21px;font-weight:650;letter-spacing:1.75px;fill:url(#taglineGradient)}}
+ .rule{{stroke-dasharray:700;stroke-dashoffset:700;animation:ruleDraw 9s ease-in-out infinite}}
+ .spark{{animation:sparkTravel 4.5s ease-in-out infinite alternate}}
+ @keyframes ruleDraw{{0%,5%{{stroke-dashoffset:700;opacity:.2}}30%,57%{{stroke-dashoffset:0;opacity:.8}}100%{{stroke-dashoffset:-700;opacity:.15}}}}
+ @keyframes sparkTravel{{from{{transform:translateX(0);opacity:.2}}to{{transform:translateX(680px);opacity:1}}}}
+ @media (prefers-reduced-motion:reduce){{.rule,.spark{{animation:none}}.rule{{stroke-dashoffset:0}}.spark{{opacity:.5}}}}
 </style>
-<!-- Only text and fine rules are drawn: the canvas remains transparent. -->
-<text class="phrase" x="600" y="38" text-anchor="middle" opacity="1">{phrase_1}<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.05;.25;.31;1" dur="9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 0;0 0;0 -7;0 -7" keyTimes="0;.05;.25;.31;1" dur="9s" repeatCount="indefinite"/></text>
-<text class="phrase" x="600" y="38" text-anchor="middle" opacity="0">{phrase_2}<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.31;.36;.60;.66;1" dur="9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 8;0 0;0 0;0 -7;0 -7" keyTimes="0;.31;.36;.60;.66;1" dur="9s" repeatCount="indefinite"/></text>
-<text class="phrase" x="600" y="38" text-anchor="middle" opacity="0">{phrase_3}<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.66;.71;.94;1" dur="9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 8;0 0;0 0;0 -7" keyTimes="0;.66;.71;.94;1" dur="9s" repeatCount="indefinite"/></text>
-<path d="M120 58 H1080" stroke="url(#underlineGradient)" stroke-width="1.5" stroke-linecap="round"/>
-<path class="underline" d="M230 58 H970" stroke="url(#taglineGradient)" stroke-width="2.1" stroke-linecap="round" fill="none"/>
-<circle class="spark" cx="230" cy="58" r="2.6" fill="#67E8F9" opacity="0"/>
+<!-- First phrase stays visible if a renderer disables SVG animation. -->
+<text class="phrase" x="600" y="30" text-anchor="middle" opacity="1">{p1}<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;.24;.29;.95;1" dur="12s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -5;0 -5;0 0" keyTimes="0;.24;.29;.95;1" dur="12s" repeatCount="indefinite"/></text>
+<text class="phrase" x="600" y="30" text-anchor="middle" opacity="0">{p2}<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.28;.33;.57;.62;1" dur="12s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 5;0 5;0 0;0 0;0 -5;0 -5" keyTimes="0;.28;.33;.57;.62;1" dur="12s" repeatCount="indefinite"/></text>
+<text class="phrase" x="600" y="30" text-anchor="middle" opacity="0">{p3}<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.61;.66;.94;1" dur="12s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 5;0 5;0 0;0 0;0 -5" keyTimes="0;.61;.66;.94;1" dur="12s" repeatCount="indefinite"/></text>
+<path d="M170 48 H1030" stroke="url(#taglineRule)" stroke-width="1.2" stroke-linecap="round"/>
+<path class="rule" d="M260 48 H940" stroke="url(#taglineGradient)" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+<circle class="spark" cx="260" cy="48" r="2.2" fill="#55D6FF"/>
 </svg>'''
 
 SECTIONS = [
@@ -176,32 +151,32 @@ ICON_PATHS = {
 
 
 def section_svg(number: str, label: str, accent: str, icon: str) -> str:
-    safe_label = html.escape(label)
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="76" viewBox="0 0 1200 76" role="img" aria-labelledby="title">
+    safe_label = html.escape(label.title() if label != "TECHNICAL SKILLS" else "Technical Skills")
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="68" viewBox="0 0 1200 68" role="img" aria-labelledby="title desc">
 <title id="title">{number} — {safe_label}</title>
+<desc id="desc">Minimal editorial section heading with a colored index, line icon, and animated gradient rule.</desc>
 <defs>
- <linearGradient id="sectionLine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{accent}" stop-opacity=".95"/><stop offset=".55" stop-color="{CYAN}" stop-opacity=".72"/><stop offset="1" stop-color="{VIOLET}" stop-opacity=".05"/></linearGradient>
- <filter id="tinyGlow" x="-40%" y="-80%" width="180%" height="260%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <linearGradient id="ruleGradient" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{accent}" stop-opacity=".9"/><stop offset=".46" stop-color="{CYAN}" stop-opacity=".7"/><stop offset="1" stop-color="{VIOLET}" stop-opacity=".03"/></linearGradient>
+ <filter id="iconGlow" x="-40%" y="-50%" width="180%" height="200%"><feGaussianBlur stdDeviation="1.5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
 <style>
- .titleGroup{{animation:reveal .72s cubic-bezier(.2,.8,.2,1) .06s}}
- .rule{{stroke-dasharray:920;stroke-dashoffset:0;animation:draw 1.45s cubic-bezier(.2,.8,.2,1) .2s}}
- .pulse{{animation:pulse 2.8s ease-in-out infinite}}
- @keyframes reveal{{from{{opacity:0;transform:translateX(-22px)}}to{{opacity:1;transform:translateX(0)}}}}
- @keyframes draw{{from{{stroke-dashoffset:920}}to{{stroke-dashoffset:0}}}}
- @keyframes pulse{{0%,100%{{opacity:.4}}50%{{opacity:1}}}}
- @media (prefers-reduced-motion:reduce){{.titleGroup{{opacity:1;transform:none;animation:none}}.rule{{stroke-dashoffset:0;animation:none}}.pulse{{animation:none;opacity:.8}}}}
+ .heading{{opacity:1;animation:headingIn .62s cubic-bezier(.2,.8,.2,1) .05s forwards}}
+ .line{{stroke-dasharray:920;stroke-dashoffset:920;animation:lineIn 1.15s cubic-bezier(.2,.8,.2,1) .18s forwards}}
+ .dot{{animation:dotPulse 3.2s ease-in-out infinite}}
+ @keyframes headingIn{{from{{opacity:0;transform:translateX(-12px)}}to{{opacity:1;transform:translateX(0)}}}}
+ @keyframes lineIn{{to{{stroke-dashoffset:0}}}}
+ @keyframes dotPulse{{0%,100%{{opacity:.45}}50%{{opacity:1}}}}
+ @media (prefers-reduced-motion:reduce){{.heading,.line,.dot{{animation:none;opacity:1;stroke-dashoffset:0}}}}
 </style>
-<g class="titleGroup">
- <text x="10" y="42" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="{accent}" letter-spacing="1.5">{number}</text>
- <g transform="translate(62 17)" stroke="{accent}" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none" filter="url(#tinyGlow)">{ICON_PATHS[icon]}</g>
- <text x="105" y="44" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="26" font-weight="700" fill="{TEXT}" letter-spacing=".8">{safe_label}</text>
- <path d="M105 60 H1180" stroke="{BORDER}" stroke-width="1.1" stroke-opacity=".9"/>
- <path class="rule" d="M105 60 H450" stroke="url(#sectionLine)" stroke-width="2.4" stroke-linecap="round" filter="url(#tinyGlow)" fill="none"/>
- <circle class="pulse" cx="1180" cy="60" r="2.8" fill="{accent}"/>
+<g class="heading">
+ <text x="18" y="35" font-family="'Segoe UI',Arial,sans-serif" font-size="14" font-weight="700" fill="{accent}" letter-spacing="1.4">{number}</text>
+ <g transform="translate(63 13)" stroke="{accent}" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" fill="none" filter="url(#iconGlow)">{ICON_PATHS[icon]}</g>
+ <text x="105" y="37" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="650" fill="{TEXT}" letter-spacing=".25">{safe_label}</text>
+ <path d="M105 53 H1180" stroke="{BORDER}" stroke-width="1" stroke-opacity=".76"/>
+ <path class="line" d="M105 53 H520" stroke="url(#ruleGradient)" stroke-width="2.1" stroke-linecap="round" fill="none"/>
+ <circle class="dot" cx="1180" cy="53" r="2.4" fill="{accent}"/>
 </g>
 </svg>'''
-
 
 def activity_graph_svg(data: dict) -> str:
     all_days = data.get("days", [])

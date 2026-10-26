@@ -1,24 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="72" viewBox="0 0 1200 72" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="66" viewBox="0 0 1200 66" role="img" aria-labelledby="title desc">
 <title id="title">Arpit Jham — rotating professional tagline</title>
-<desc id="desc">A transparent tagline that fades between building scalable projects, designing premium user interfaces, and lead developer and AI product engineering.</desc>
+<desc id="desc">A transparent tagline cycling between scalable projects, premium interfaces, and AI product engineering.</desc>
 <defs>
- <linearGradient id="taglineGradient" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#60A5FA"/><stop offset=".5" stop-color="#22D3EE"/><stop offset="1" stop-color="#5EEAD4"/></linearGradient>
- <linearGradient id="underlineGradient" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#60A5FA" stop-opacity=".05"/><stop offset=".5" stop-color="#22D3EE" stop-opacity=".8"/><stop offset="1" stop-color="#5EEAD4" stop-opacity=".05"/></linearGradient>
- <filter id="tagGlow" x="-20%" y="-70%" width="140%" height="240%"><feGaussianBlur stdDeviation="2.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <linearGradient id="taglineGradient" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#82A8FF"/><stop offset=".48" stop-color="#55D6FF"/><stop offset="1" stop-color="#B5A2FF"/></linearGradient>
+ <linearGradient id="taglineRule" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#82A8FF" stop-opacity="0"/><stop offset=".5" stop-color="#55D6FF" stop-opacity=".72"/><stop offset="1" stop-color="#B5A2FF" stop-opacity="0"/></linearGradient>
 </defs>
 <style>
- .phrase{font-family:'Times New Roman',Georgia,serif;font-size:25px;font-style:italic;font-weight:700;letter-spacing:1.35px;fill:url(#taglineGradient);filter:url(#tagGlow)}
- .underline{stroke-dasharray:860;stroke-dashoffset:860;animation:drawLine 9s ease-in-out infinite}
- .spark{animation:travel 3.2s ease-in-out infinite alternate}
- @keyframes drawLine{0%,5%{stroke-dashoffset:860;opacity:.25}28%,55%{stroke-dashoffset:0;opacity:.9}100%{stroke-dashoffset:-860;opacity:.2}}
- @keyframes travel{from{transform:translateX(0);opacity:.1}to{transform:translateX(820px);opacity:.85}}
- @media (prefers-reduced-motion:reduce){.underline,.spark{animation:none}.underline{stroke-dashoffset:0}.spark{opacity:.5}}
+ .phrase{font-family:'Segoe UI',Arial,sans-serif;font-size:21px;font-weight:650;letter-spacing:1.75px;fill:url(#taglineGradient)}
+ .rule{stroke-dasharray:700;stroke-dashoffset:700;animation:ruleDraw 9s ease-in-out infinite}
+ .spark{animation:sparkTravel 4.5s ease-in-out infinite alternate}
+ @keyframes ruleDraw{0%,5%{stroke-dashoffset:700;opacity:.2}30%,57%{stroke-dashoffset:0;opacity:.8}100%{stroke-dashoffset:-700;opacity:.15}}
+ @keyframes sparkTravel{from{transform:translateX(0);opacity:.2}to{transform:translateX(680px);opacity:1}}
+ @media (prefers-reduced-motion:reduce){.rule,.spark{animation:none}.rule{stroke-dashoffset:0}.spark{opacity:.5}}
 </style>
-<!-- Only text and fine rules are drawn: the canvas remains transparent. -->
-<text class="phrase" x="600" y="38" text-anchor="middle" opacity="1">BUILDING SCALABLE PROJECTS<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.05;.25;.31;1" dur="9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 0;0 0;0 -7;0 -7" keyTimes="0;.05;.25;.31;1" dur="9s" repeatCount="indefinite"/></text>
-<text class="phrase" x="600" y="38" text-anchor="middle" opacity="0">DESIGNING PREMIUM USER INTERFACES<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.31;.36;.60;.66;1" dur="9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 8;0 0;0 0;0 -7;0 -7" keyTimes="0;.31;.36;.60;.66;1" dur="9s" repeatCount="indefinite"/></text>
-<text class="phrase" x="600" y="38" text-anchor="middle" opacity="0">LEAD DEVELOPER · AI PRODUCT ENGINEERING<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.66;.71;.94;1" dur="9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 8;0 8;0 0;0 0;0 -7" keyTimes="0;.66;.71;.94;1" dur="9s" repeatCount="indefinite"/></text>
-<path d="M120 58 H1080" stroke="url(#underlineGradient)" stroke-width="1.5" stroke-linecap="round"/>
-<path class="underline" d="M230 58 H970" stroke="url(#taglineGradient)" stroke-width="2.1" stroke-linecap="round" fill="none"/>
-<circle class="spark" cx="230" cy="58" r="2.6" fill="#67E8F9" opacity="0"/>
+<!-- First phrase stays visible if a renderer disables SVG animation. -->
+<text class="phrase" x="600" y="30" text-anchor="middle" opacity="1">BUILDING SCALABLE PROJECTS<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;.24;.29;.95;1" dur="12s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -5;0 -5;0 0" keyTimes="0;.24;.29;.95;1" dur="12s" repeatCount="indefinite"/></text>
+<text class="phrase" x="600" y="30" text-anchor="middle" opacity="0">DESIGNING PREMIUM USER INTERFACES<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.28;.33;.57;.62;1" dur="12s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 5;0 5;0 0;0 0;0 -5;0 -5" keyTimes="0;.28;.33;.57;.62;1" dur="12s" repeatCount="indefinite"/></text>
+<text class="phrase" x="600" y="30" text-anchor="middle" opacity="0">LEAD DEVELOPER · AI PRODUCT ENGINEERING<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.61;.66;.94;1" dur="12s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 5;0 5;0 0;0 0;0 -5" keyTimes="0;.61;.66;.94;1" dur="12s" repeatCount="indefinite"/></text>
+<path d="M170 48 H1030" stroke="url(#taglineRule)" stroke-width="1.2" stroke-linecap="round"/>
+<path class="rule" d="M260 48 H940" stroke="url(#taglineGradient)" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+<circle class="spark" cx="260" cy="48" r="2.2" fill="#55D6FF"/>
 </svg>
