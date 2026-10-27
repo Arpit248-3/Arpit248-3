@@ -39,8 +39,11 @@ jobs:
       - name: Render statistics dashboard
         run: python scripts/render_stats_svg.py
 
+      - name: Apply scoped animation and light-theme fixes
+        run: python scripts/fix_profile_animation_scope.py --assets-only
+
       - name: Commit refreshed profile visuals
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: refresh profile visuals [skip ci]"
-          file_pattern: "data/contributions.json contrib-heatmap.svg stats.svg activity-graph.svg assets/*.svg"
+          file_pattern: "data/contributions.json contrib-heatmap.svg contrib-heatmap-light.svg stats.svg stats-light.svg activity-graph.svg activity-graph-light.svg profile-ascii.svg profile-ascii-light.svg assets/*.svg"
