@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="title desc">
 <title id="title">UrjaNetra AI project overview</title>
 <desc id="desc">Energy AI · early warning — Energy supply-chain risk signals · forecast horizons · scenario planning</desc>
@@ -36,4 +37,4 @@
           </g>
           <circle cx="1090" cy="48" r="40" fill="#2DD4BF" opacity=".05"/>
         
-</svg>
+<circle id="loop-spark-injected" cx="24" cy="152.0" r="3.0" fill="#60A5FA"><animateMotion dur="6s" repeatCount="indefinite" path="M 20,152.0 L 1180.0,152.0"/><animate attributeName="r" values="2.2;4.0;2.2" dur="2.5s" repeatCount="indefinite"/></circle></svg>

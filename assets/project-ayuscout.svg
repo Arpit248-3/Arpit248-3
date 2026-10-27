@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="title desc">
 <title id="title">AyuScout AI project overview</title>
 <desc id="desc">Health tech · privacy by design — Pharmacovigilance intelligence · safety signals · regulatory reporting</desc>
@@ -36,4 +37,4 @@
           <circle cx="1090" cy="40" r="32" fill="#67E8F9" opacity=".055"/>
           <circle cx="1090" cy="40" r="21" fill="none" stroke="#67E8F9" stroke-opacity=".25"/>
         
-</svg>
+<circle id="loop-spark-injected" cx="24" cy="152.0" r="3.0" fill="#22D3EE"><animateMotion dur="6s" repeatCount="indefinite" path="M 20,152.0 L 1180.0,152.0"/><animate attributeName="r" values="2.2;4.0;2.2" dur="2.5s" repeatCount="indefinite"/></circle></svg>

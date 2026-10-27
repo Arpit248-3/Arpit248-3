@@ -5,33 +5,33 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Arpit248-3/Arpit248-3/main/dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Arpit248-3/Arpit248-3/main/light.svg" />
-    <img src="https://raw.githubusercontent.com/Arpit248-3/Arpit248-3/main/light.svg" width="100%" alt="Arpit Jham — animated terminal profile banner" />
+    <source media="(prefers-color-scheme: dark)" srcset="./banner-dark.gif" />
+    <source media="(prefers-color-scheme: light)" srcset="./banner-light.gif" />
+    <img src="./banner-light.gif" width="100%" alt="Arpit Jham — animated terminal profile banner" />
   </picture>
 </p>
 
-<p align="center"><img src="./assets/profile-tagline.svg" width="100%" alt="Building scalable projects, designing premium interfaces, leading teams" /></p>
+<p align="center"><img src="./assets/animated/profile-tagline-loop.gif" width="100%" alt="Building scalable projects, designing premium interfaces, leading teams" /></p>
 
 <p align="center"><a href="https://linkedin.com/in/arpit-jham-6963b628a"><img src="./assets/linkedin-icon.svg" width="22" height="22" alt="LinkedIn" /> LinkedIn</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://leetcode.com/u/Arpit24Jh--8-3/"><img src="./assets/leetcode-icon.svg" width="22" height="22" alt="LeetCode" /> LeetCode</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="mailto:arpitjham23@gmail.com"><img src="./assets/email-icon.svg" width="22" height="22" alt="Email" /> Email</a></p>
 
 ---
 
-<p align="center"><img src="./assets/section-developer-stats-accent.svg" width="100%" alt="GitHub Developer Stats" /></p>
+<p align="center"><img src="./assets/animated/section-developer-stats-accent-loop.gif" width="100%" alt="GitHub Developer Stats" /></p>
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Arpit248-3&amp;hide_border=true&amp;background=0A101F&amp;stroke=22D3EE&amp;ring=A78BFA&amp;fire=10B981&amp;currStreakLabel=22D3EE&amp;sideLabels=94A3B8&amp;currStreakNum=F8FAFC&amp;sideNums=F8FAFC&amp;dates=64748B&amp;titleColor=22D3EE&amp;card_width=1180" /><source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=Arpit248-3&amp;hide_border=true&amp;background=F8FAFC&amp;stroke=CBD5E1&amp;ring=7C3AED&amp;fire=059669&amp;currStreakLabel=0369A1&amp;sideLabels=475569&amp;currStreakNum=0F172A&amp;sideNums=0F172A&amp;dates=64748B&amp;titleColor=0369A1&amp;card_width=1180" /><img width="100%" src="https://streak-stats.demolab.com/?user=Arpit248-3&amp;hide_border=true&amp;background=0A101F&amp;stroke=22D3EE&amp;ring=A78BFA&amp;fire=10B981&amp;currStreakLabel=22D3EE&amp;sideLabels=94A3B8&amp;currStreakNum=F8FAFC&amp;sideNums=F8FAFC&amp;dates=64748B&amp;titleColor=22D3EE&amp;card_width=1180" alt="GitHub contribution streak" /></picture><br /><picture><source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=Arpit248-3&amp;show_icons=true&amp;include_all_commits=true&amp;hide_rank=true&amp;hide_border=true&amp;title_color=22D3EE&amp;icon_color=A78BFA&amp;text_color=94A3B8&amp;bg_color=0A101F&amp;card_width=500" /><source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=Arpit248-3&amp;show_icons=true&amp;include_all_commits=true&amp;hide_rank=true&amp;hide_border=true&amp;title_color=0369A1&amp;icon_color=6D28D9&amp;text_color=334155&amp;bg_color=F8FAFC&amp;card_width=500" /><img width="49%" src="https://github-stats-extended.vercel.app/api?username=Arpit248-3&amp;show_icons=true&amp;include_all_commits=true&amp;hide_rank=true&amp;hide_border=true&amp;title_color=22D3EE&amp;icon_color=A78BFA&amp;text_color=94A3B8&amp;bg_color=0A101F&amp;card_width=500" alt="Arpit Jham's GitHub statistics" /></picture><picture><source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs?username=Arpit248-3&amp;layout=compact&amp;langs_count=8&amp;hide_border=true&amp;title_color=22D3EE&amp;text_color=94A3B8&amp;bg_color=0A101F&amp;card_width=500" /><source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs?username=Arpit248-3&amp;layout=compact&amp;langs_count=8&amp;hide_border=true&amp;title_color=0369A1&amp;text_color=334155&amp;bg_color=F8FAFC&amp;card_width=500" /><img width="49%" src="https://github-stats-extended.vercel.app/api/top-langs?username=Arpit248-3&amp;layout=compact&amp;langs_count=8&amp;hide_border=true&amp;title_color=22D3EE&amp;text_color=94A3B8&amp;bg_color=0A101F&amp;card_width=500" alt="Most-used programming languages" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Arpit248-3&amp;hide_border=true&amp;background=0A101F&amp;stroke=22D3EE&amp;ring=A78BFA&amp;fire=10B981&amp;currStreakLabel=22D3EE&amp;sideLabels=94A3B8&amp;currStreakNum=F8FAFC&amp;sideNums=F8FAFC&amp;dates=64748B&amp;titleColor=22D3EE&amp;card_width=1180" /><source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=Arpit248-3&amp;hide_border=true&amp;background=F8FAFC&amp;stroke=CBD5E1&amp;ring=7C3AED&amp;fire=059669&amp;currStreakLabel=0369A1&amp;sideLabels=475569&amp;currStreakNum=0F172A&amp;sideNums=0F172A&amp;dates=64748B&amp;titleColor=0369A1&amp;card_width=1180" /><img width="100%" src="https://streak-stats.demolab.com/?user=Arpit248-3&amp;hide_border=true&amp;background=0A101F&amp;stroke=22D3EE&amp;ring=A78BFA&amp;fire=10B981&amp;currStreakLabel=22D3EE&amp;sideLabels=94A3B8&amp;currStreakNum=F8FAFC&amp;sideNums=F8FAFC&amp;dates=64748B&amp;titleColor=22D3EE&amp;card_width=1180" alt="GitHub contribution streak" /></picture><br /><picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stat-ten-tawny.vercel.app/api?username=Arpit248-3&amp;show_icons=true&amp;include_all_commits=true&amp;hide_rank=true&amp;hide_border=true&amp;title_color=22D3EE&amp;icon_color=A78BFA&amp;text_color=94A3B8&amp;bg_color=0A101F&amp;card_width=500" /><source media="(prefers-color-scheme: light)" srcset="https://github-readme-stat-ten-tawny.vercel.app/api?username=Arpit248-3&amp;show_icons=true&amp;include_all_commits=true&amp;hide_rank=true&amp;hide_border=true&amp;title_color=0369A1&amp;icon_color=6D28D9&amp;text_color=334155&amp;bg_color=F8FAFC&amp;card_width=500" /><img width="49%" src="https://github-readme-stat-ten-tawny.vercel.app/api?username=Arpit248-3&amp;show_icons=true&amp;include_all_commits=true&amp;hide_rank=true&amp;hide_border=true&amp;title_color=22D3EE&amp;icon_color=A78BFA&amp;text_color=94A3B8&amp;bg_color=0A101F&amp;card_width=500" alt="Arpit Jham's GitHub statistics" /></picture><picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stat-ten-tawny.vercel.app/api/top-langs/?username=Arpit248-3&amp;layout=compact&amp;langs_count=8&amp;hide_border=true&amp;title_color=22D3EE&amp;text_color=94A3B8&amp;bg_color=0A101F&amp;card_width=500" /><source media="(prefers-color-scheme: light)" srcset="https://github-readme-stat-ten-tawny.vercel.app/api/top-langs/?username=Arpit248-3&amp;layout=compact&amp;langs_count=8&amp;hide_border=true&amp;title_color=0369A1&amp;text_color=334155&amp;bg_color=F8FAFC&amp;card_width=500" /><img width="49%" src="https://github-readme-stat-ten-tawny.vercel.app/api/top-langs/?username=Arpit248-3&amp;layout=compact&amp;langs_count=8&amp;hide_border=true&amp;title_color=22D3EE&amp;text_color=94A3B8&amp;bg_color=0A101F&amp;card_width=500" alt="Most-used programming languages" /></picture></p>
 
 ---
 
-<p align="center"><img src="./assets/section-about-accent.svg" width="100%" alt="01 — About" /></p>
+<p align="center"><img src="./assets/animated/section-about-accent-loop.gif" width="100%" alt="01 — About" /></p>
 
 I'm a Computer Science and Engineering student at **Dr. Ambedkar Institute of Technology, Bengaluru**, with a **CGPA of 8.3/10**. I work across frontend interfaces, backend APIs, databases, and applied AI to turn complex workflows into practical software.
 
 My interests sit at the intersection of **reliable backend services**, **thoughtful UI/UX**, **privacy-aware data handling**, and **AI-assisted decision support**. I enjoy taking a problem from product framing and system design through implementation and a clear user-facing experience.
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/about-meta-animated.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/about-meta-animated-light.svg" /><img src="./assets/about-meta-animated.svg" width="100%" alt="B.E. Computer Science and Engineering · CGPA 8.3 out of 10 · Bengaluru, India" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/animated/about-meta-animated-dark.gif" /><source media="(prefers-color-scheme: light)" srcset="./assets/animated/about-meta-animated-light.gif" /><img src="./assets/animated/about-meta-animated-dark.gif" width="100%" alt="B.E. Computer Science and Engineering · CGPA 8.3 out of 10 · Bengaluru, India" /></picture></p>
 
-<p align="center"><img src="./assets/section-contributions-accent.svg" width="100%" alt="02 — Contributions" /></p>
+<p align="center"><img src="./assets/animated/section-contributions-accent-loop.gif" width="100%" alt="02 — Contributions" /></p>
 
 <p align="center"><sub>RECENT ACTIVITY · LAST 31 DAYS</sub></p>
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./activity-graph.svg" /><source media="(prefers-color-scheme: light)" srcset="./activity-graph-light.svg" /><img src="./activity-graph.svg" width="100%" alt="GitHub activity line chart for the last 31 days" /></picture></p>
@@ -41,20 +41,20 @@ My interests sit at the intersection of **reliable backend services**, **thought
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./profile-ascii.svg" /><source media="(prefers-color-scheme: light)" srcset="./profile-ascii-light.svg" /><img src="./profile-ascii.svg" width="49%" alt="Animated terminal-style ASCII portrait" /></picture><picture><source media="(prefers-color-scheme: dark)" srcset="./stats.svg" /><source media="(prefers-color-scheme: light)" srcset="./stats-light.svg" /><img src="./stats.svg" width="49%" alt="GitHub contribution statistics and monthly activity chart" /></picture></p>
 
-<p align="center"><img src="./assets/section-leadership-accent.svg" width="100%" alt="03 — Leadership Experience" /></p>
+<p align="center"><img src="./assets/animated/section-leadership-accent-loop.gif" width="100%" alt="03 — Leadership Experience" /></p>
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/leadership-ayuscout.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/leadership-ayuscout-light.svg" /><img src="./assets/leadership-ayuscout.svg" width="100%" alt="Animated AI for Bharat Hackathon leadership showcase — AyuScout AI" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/animated/leadership-ayuscout-dark.gif" /><source media="(prefers-color-scheme: light)" srcset="./assets/animated/leadership-ayuscout-light.gif" /><img src="./assets/animated/leadership-ayuscout-dark.gif" width="100%" alt="Animated AI for Bharat Hackathon leadership showcase — AyuScout AI" /></picture></p>
 
 <p align="center"><a href="https://github.com/Arpit248-3/Pan-IIT"><img src="./assets/github-mark.svg" width="17" height="17" alt="GitHub" /> AyuScout AI repository</a></p>
 
-<p align="center"><img src="./assets/section-skills-accent.svg" width="100%" alt="04 — Technical Skills" /></p>
+<p align="center"><img src="./assets/animated/section-skills-accent-loop.gif" width="100%" alt="04 — Technical Skills" /></p>
 <p align="center"><sub>Full-stack toolkit · two-column engineering stack</sub></p>
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/skills-grid.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/skills-grid-light.svg" /><img src="./assets/skills-grid.svg" width="100%" alt="Technical Skills — six skill domains in a two-column animated grid" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/animated/skills-grid-dark.gif" /><source media="(prefers-color-scheme: light)" srcset="./assets/animated/skills-grid-light.gif" /><img src="./assets/animated/skills-grid-dark.gif" width="100%" alt="Technical Skills — six skill domains in a two-column animated grid" /></picture></p>
 
-<p align="center"><img src="./assets/section-projects-accent.svg" width="100%" alt="05 — Featured Projects" /></p>
+<p align="center"><img src="./assets/animated/section-projects-accent-loop.gif" width="100%" alt="05 — Featured Projects" /></p>
 <p align="center"><sub>Selected engineering work · useful interfaces · reliable systems · evidence-first AI</sub></p>
 
-<p><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-ayuscout.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/project-ayuscout-light.svg" /><img src="./assets/project-ayuscout.svg" width="100%" alt="AyuScout AI — pharmacovigilance intelligence, safety signals and privacy by design" /></picture></p>
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/animated/project-ayuscout-dark.gif" /><source media="(prefers-color-scheme: light)" srcset="./assets/animated/project-ayuscout-light.gif" /><img src="./assets/animated/project-ayuscout-dark.gif" width="100%" alt="AyuScout AI — pharmacovigilance intelligence, safety signals and privacy by design" /></picture></p>
 
 A React dashboard for adverse-event review, safety alerts, KPIs, drug exploration, and report management, backed by FastAPI REST APIs.
 
@@ -68,7 +68,7 @@ A React dashboard for adverse-event review, safety alerts, KPIs, drug exploratio
 
 ---
 
-<p><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-urjanetra.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/project-urjanetra-light.svg" /><img src="./assets/project-urjanetra.svg" width="100%" alt="UrjaNetra AI — energy supply-chain forecasting and risk signals" /></picture></p>
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/animated/project-urjanetra-dark.gif" /><source media="(prefers-color-scheme: light)" srcset="./assets/animated/project-urjanetra-light.gif" /><img src="./assets/animated/project-urjanetra-dark.gif" width="100%" alt="UrjaNetra AI — energy supply-chain forecasting and risk signals" /></picture></p>
 
 An early-warning concept for import-dependent energy supply chains, combining weather, shipping, commodity, energy-demand, and geopolitical signals.
 
@@ -82,7 +82,7 @@ An early-warning concept for import-dependent energy supply chains, combining we
 
 ---
 
-<p><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-veridoc.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/project-veridoc-light.svg" /><img src="./assets/project-veridoc.svg" width="100%" alt="VeriDoc AI — offline retrieval and evidence-based claim verification" /></picture></p>
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/animated/project-veridoc-dark.gif" /><source media="(prefers-color-scheme: light)" srcset="./assets/animated/project-veridoc-light.gif" /><img src="./assets/animated/project-veridoc-dark.gif" width="100%" alt="VeriDoc AI — offline retrieval and evidence-based claim verification" /></picture></p>
 
 An offline RAG and claim-verification project built around hybrid BM25 and dense retrieval, PII protection, and evidence-grounded answers for workflows where traceability matters.
 
@@ -92,18 +92,18 @@ An offline RAG and claim-verification project built around hybrid BM25 and dense
 
 <p align="center"><sub>More work: <a href="https://github.com/Arpit248-3?tab=repositories"><img src="./assets/github-mark.svg" width="15" height="15" alt="GitHub" /> Browse all public repositories</a></sub></p>
 
-<p align="center"><img src="./assets/section-achievements-accent.svg" width="100%" alt="06 — Achievements" /></p>
+<p align="center"><img src="./assets/animated/section-achievements-accent-loop.gif" width="100%" alt="06 — Achievements" /></p>
 
 <table width="100%">
   <tr>
-    <td width="50%" valign="top"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/achievement-ai-for-bharat.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/achievement-ai-for-bharat-light.svg" /><img src="./assets/achievement-ai-for-bharat.svg" width="100%" alt="AI for Bharat Hackathon 2026 — Theme Winner and Top 4 among 16,200+ registrations" /></picture></td>
-    <td width="50%" valign="top"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/achievement-ai-build-challenge.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/achievement-ai-build-challenge-light.svg" /><img src="./assets/achievement-ai-build-challenge.svg" width="100%" alt="AI Build Challenge Bengaluru — First Runner-Up" /></picture></td>
+    <td width="50%" valign="top"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/animated/achievement-ai-for-bharat-dark.gif" /><source media="(prefers-color-scheme: light)" srcset="./assets/animated/achievement-ai-for-bharat-light.gif" /><img src="./assets/animated/achievement-ai-for-bharat-dark.gif" width="100%" alt="AI for Bharat Hackathon 2026 — Theme Winner and Top 4 among 16,200+ registrations" /></picture></td>
+    <td width="50%" valign="top"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/animated/achievement-ai-build-challenge-dark.gif" /><source media="(prefers-color-scheme: light)" srcset="./assets/animated/achievement-ai-build-challenge-light.gif" /><img src="./assets/animated/achievement-ai-build-challenge-dark.gif" width="100%" alt="AI Build Challenge Bengaluru — First Runner-Up" /></picture></td>
   </tr>
 </table>
 
 ---
 
-<p align="center"><img src="./assets/section-snake-accent.svg" width="100%" alt="Contribution Snake" /></p>
+<p align="center"><img src="./assets/animated/section-snake-accent-loop.gif" width="100%" alt="Contribution Snake" /></p>
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Arpit248-3/Arpit248-3/output/github-snake-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Arpit248-3/Arpit248-3/output/github-snake.svg" /><img src="https://raw.githubusercontent.com/Arpit248-3/Arpit248-3/output/github-snake.svg" width="100%" alt="Animated GitHub contribution snake for Arpit Jham" /></picture></p>
 

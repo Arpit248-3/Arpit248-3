@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="title desc">
 <title id="title">VeriDoc AI project overview</title>
 <desc id="desc">AI systems · evidence focused — Offline RAG · hybrid retrieval · privacy protection · claim verification</desc>
@@ -21,8 +22,8 @@
 <rect x="0" y="0" width="7" height="190" rx="3.5" fill="url(#accent)"/>
 <path d="M26 154 C190 125 310 175 470 148 S730 132 870 154 S1070 170 1198 130" fill="none" stroke="#A78BFA" stroke-opacity=".13" stroke-width="1.3"/>
 <text x="38" y="43" fill="#A78BFA" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2.8">03  /  AI SYSTEMS · EVIDENCE FOCUSED</text>
-<text x="38" y="91" fill="#F1F5F9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="31" font-weight="700">VeriDoc AI</text>
-<text x="38" y="121" fill="#AAB8CB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17">Offline RAG · hybrid retrieval · privacy protection · claim verification</text>
+<text x="38" y="91" fill="#0F172A" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="31" font-weight="700">VeriDoc AI</text>
+<text x="38" y="121" fill="#475569" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17">Offline RAG · hybrid retrieval · privacy protection · claim verification</text>
 <rect x="38" y="146" width="260" height="3" rx="1.5" fill="url(#accent)" opacity=".95"/>
 <circle cx="314" cy="147.5" r="3" fill="#2563EB"/>
 
@@ -34,4 +35,4 @@
           </g>
           <circle cx="1120" cy="35" r="26" fill="#A78BFA" opacity=".07"/>
         
-</svg>
+<circle id="loop-spark-injected" cx="24" cy="152.0" r="3.0" fill="#A78BFA"><animateMotion dur="6s" repeatCount="indefinite" path="M 20,152.0 L 1180.0,152.0"/><animate attributeName="r" values="2.2;4.0;2.2" dur="2.5s" repeatCount="indefinite"/></circle></svg>
