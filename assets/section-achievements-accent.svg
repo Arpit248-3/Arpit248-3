@@ -15,4 +15,4 @@
   <path d="M118 52 H986" stroke="#FBBF24" stroke-width="1.2" stroke-dasharray="90 900" stroke-linecap="round" opacity="0.9">
     <animate attributeName="stroke-dashoffset" from="990" to="0" dur="5s" repeatCount="indefinite"/>
   </path>
-</svg>
+<circle id="loop-travel-dot" r="3.1" cy="52" fill="#FBBF24" filter="url(#glow)" opacity="0.96"><animateMotion dur="6.2s" repeatCount="indefinite" path="M 118,52 L 986,52" /><animate attributeName="r" values="2.2;3.8;2.2" dur="2.6s" repeatCount="indefinite" /></circle></svg>
