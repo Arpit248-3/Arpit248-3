@@ -34,7 +34,7 @@ My interests sit at the intersection of **reliable backend services**, **thought
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/section-contributions-accent.svg" /><source media="(prefers-color-scheme: light)" srcset="./assets/section-contributions-accent-light.svg" /><img src="./assets/section-contributions-accent.svg" width="100%" alt="02 — Contributions" /></picture></p>
 
 <p align="center"><sub>RECENT ACTIVITY · LAST 31 DAYS</sub></p>
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./activity-graph.svg" /><source media="(prefers-color-scheme: light)" srcset="./activity-graph-light.svg" /><img src="./activity-graph.svg" width="100%" alt="GitHub activity line chart for the last 31 days" /></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/animated/activity-graph-dark.gif" /><source media="(prefers-color-scheme: light)" srcset="./assets/animated/activity-graph-light.gif" /><img src="./assets/animated/activity-graph-dark.gif" width="100%" alt="GitHub activity line chart for the last 31 days" /></picture></p>
 
 <p align="center"><sub>ANNUAL CONTRIBUTION HEATMAP</sub></p>
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="./contrib-heatmap.svg" /><source media="(prefers-color-scheme: light)" srcset="./contrib-heatmap-light.svg" /><img src="./contrib-heatmap.svg" width="100%" alt="Annual GitHub contribution heatmap" /></picture></p>
