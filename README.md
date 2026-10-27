@@ -46,9 +46,7 @@ I'm a Computer Science and Engineering student at **Dr. Ambedkar Institute of Te
 
 My interests sit at the intersection of **reliable backend services**, **thoughtful UI/UX**, **privacy-aware data handling**, and **AI-assisted decision support**. I enjoy taking a problem from product framing and system design through implementation and a clear user-facing experience.
 
-<p align="center">
-  <sub>B.E. COMPUTER SCIENCE &amp; ENGINEERING &nbsp;·&nbsp; CGPA <strong>8.3/10</strong> &nbsp;·&nbsp; BENGALURU, INDIA</sub>
-</p>
+<p align="center"><img src="./assets/about-meta-animated.svg" width="100%" alt="B.E. Computer Science and Engineering · CGPA 8.3 out of 10 · Bengaluru, India" /></p>
 <p align="center">
   <img src="./assets/section-contributions-accent.svg" width="100%" alt="02 — Contributions" />
 </p>
@@ -67,13 +65,8 @@ My interests sit at the intersection of **reliable backend services**, **thought
 <p align="center">
   <img src="./assets/section-leadership-accent.svg" width="100%" alt="03 — Leadership Experience" />
 </p>
-<p align="center">
-  <img src="./assets/leadership-ayuscout.svg" width="100%" alt="Animated leadership showcase — Team Lead, AI for Bharat Hackathon 2026, AyuScout AI" />
-</p>
-<p align="center">
-  <a href="https://github.com/Arpit248-3/Pan-IIT"><strong>Explore AyuScout AI repository ↗</strong></a>
-</p>
-<p><sub><strong>FOCUS</strong> &nbsp; Safety signal review · Privacy by design · Regulatory reporting</sub></p>
+<p align="center"><img src="./assets/leadership-ayuscout.svg" width="100%" alt="Animated AI for Bharat Hackathon leadership showcase — AyuScout AI" /></p>
+<p align="center"><a href="https://github.com/Arpit248-3/Pan-IIT"><img src="./assets/github-mark.svg" width="17" height="17" alt="GitHub" />&nbsp; AyuScout AI repository</a></p>
 <p align="center">
   <img src="./assets/section-skills-accent.svg" width="100%" alt="04 — Technical Skills" />
 </p>
@@ -101,7 +94,7 @@ A React dashboard for adverse-event review, safety alerts, KPIs, drug exploratio
   <img src="https://skillicons.dev/icons?i=react,fastapi,sqlite&amp;theme=dark" height="34" alt="React, FastAPI and SQLite" />
 </p>
 
-**Explore:** [Source repository ↗](https://github.com/Arpit248-3/Pan-IIT) &nbsp;·&nbsp; [Live demo ↗](https://ayuscout-frontend.onrender.com/)
+<a href="https://github.com/Arpit248-3/Pan-IIT"><img src="./assets/github-mark.svg" width="16" height="16" alt="GitHub" />&nbsp; AyuScout AI repository</a>
 
 ---
 
@@ -121,7 +114,7 @@ An early-warning concept for import-dependent energy supply chains, combining we
   <img src="https://skillicons.dev/icons?i=python&amp;theme=dark" height="34" alt="Python" />
 </p>
 
-**Explore:** [Source repository ↗](https://github.com/Arpit248-3/ET2)
+<a href="https://github.com/Arpit248-3/ET2"><img src="./assets/github-mark.svg" width="16" height="16" alt="GitHub" />&nbsp; UrjaNetra AI repository</a>
 
 ---
 
@@ -133,33 +126,17 @@ An offline RAG and claim-verification project built around hybrid BM25 and dense
 
 <sub><strong>CAPABILITIES</strong> &nbsp; Offline retrieval · Hybrid search · Privacy protection · Evidence verification</sub>
 
-**Explore:** [Source repository ↗](https://github.com/Arpit248-3/hackingly)
+<a href="https://github.com/Arpit248-3/hackingly"><img src="./assets/github-mark.svg" width="16" height="16" alt="GitHub" />&nbsp; VeriDoc AI repository</a>
 
-<p align="center">
-  <sub>More work: <a href="https://github.com/Arpit248-3?tab=repositories">browse all public repositories ↗</a></sub>
-</p>
+<p align="center"><sub>More work: <a href="https://github.com/Arpit248-3?tab=repositories"><img src="./assets/github-mark.svg" width="15" height="15" alt="GitHub" />&nbsp; Browse all public repositories</a></sub></p>
 <p align="center">
   <img src="./assets/section-achievements-accent.svg" width="100%" alt="06 — Achievements" />
 </p>
 <table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <p>
-        <img src="./assets/achievement-ai-for-bharat.svg" width="100%" alt="AI for Bharat Hackathon 2026 — Theme Winner and Top 4 among 16,200+ registrations" />
-      </p>
-      <h3>AI for Bharat Hackathon 2026</h3>
-      <p><strong>Theme Winner · Patient Experience &amp; Safety Signals</strong></p>
-      <p>Recognized with AyuScout AI; ranked <strong>Top 4 among 16,200+ registrations</strong>.</p>
-    </td>
-    <td width="50%" valign="top">
-      <p>
-        <img src="./assets/achievement-ai-build-challenge.svg" width="100%" alt="AI Build Challenge Bengaluru — First Runner-Up" />
-      </p>
-      <h3>AI Build Challenge Bengaluru</h3>
-      <p><strong>1st Runner-Up · Masters’ Union Ventures, powered by Hackingly</strong></p>
-      <p>September 2026 · VeriDoc AI</p>
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top"><img src="./assets/achievement-ai-for-bharat.svg" width="100%" alt="AI for Bharat Hackathon 2026 — Theme Winner and Top 4 among 16,200+ registrations" /></td>
+<td width="50%" valign="top"><img src="./assets/achievement-ai-build-challenge.svg" width="100%" alt="AI Build Challenge Bengaluru — First Runner-Up" /></td>
+</tr>
 </table>
 
 ---

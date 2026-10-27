@@ -1399,21 +1399,61 @@
 <rect x="1024" y="89" width="99" height="22" rx="11" fill="#0D1728" stroke="#10B981" stroke-opacity="0.8"/>
 <circle cx="1037" cy="100" r="4" fill="#10B981"><animate attributeName="r" values="4;5.5;4" dur="1.5s" repeatCount="indefinite"/></circle>
 <text x="1047" y="104" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" fill="#10B981">LIVE</text>
-<text x="454" y="154" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="1.5" fill="#8DA3BE">SUBJECT</text>
-<text x="610" y="155" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-style="italic" font-weight="bold" fill="url(#nameGrad)">Arpit Jham</text>
-<rect x="906" y="134" width="236" height="28" rx="14" fill="#0D1728" stroke="#A78BFA" stroke-opacity="0.65"/>
-<text x="1024" y="152" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" fill="#A78BFA">@Arpit248-3</text>
+<g opacity="0.62" transform="translate(-8 0)">
+  <animate attributeName="opacity" from="0.62" to="1" begin="0.18s" dur="0.55s" fill="freeze" />
+  <animateTransform attributeName="transform" type="translate" from="0 0" to="8 0" additive="sum" begin="0.18s" dur="0.55s" fill="freeze" />
+  <text x="454" y="154" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="1.5" fill="#8DA3BE">SUBJECT</text>
+  <text x="610" y="155" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-style="italic" font-weight="bold" fill="url(#nameGrad)">Arpit Jham</text>
+  <rect x="906" y="134" width="236" height="28" rx="14" fill="#0D1728" stroke="#A78BFA" stroke-opacity="0.65"/>
+  <text x="1024" y="152" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" fill="#A78BFA">@Arpit248-3</text>
+</g>
 <path d="M454 174 H1142" stroke="#1D314B"/>
 <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13">
+<g opacity="0.42" transform="translate(-8 0)">
+  <animate attributeName="opacity" from="0.42" to="1" begin="0.88s" dur="0.48s" fill="freeze" />
+  <animateTransform attributeName="transform" type="translate" from="0 0" to="8 0" additive="sum" begin="0.88s" dur="0.48s" fill="freeze" />
   <text x="454" y="201" fill="#8DA3BE">ROLE</text><path d="M510 197 H600" stroke="#8DA3BE" stroke-dasharray="2 5" opacity="0.7"/><text x="615" y="201" fill="#E8F1FF" font-family="Arial, Helvetica, sans-serif" font-size="16">Team Lead · Full-Stack Developer · AI Product Engineering</text>
+</g>
+<g opacity="0.42" transform="translate(-8 0)">
+  <animate attributeName="opacity" from="0.42" to="1" begin="1.28s" dur="0.48s" fill="freeze" />
+  <animateTransform attributeName="transform" type="translate" from="0 0" to="8 0" additive="sum" begin="1.28s" dur="0.48s" fill="freeze" />
   <text x="454" y="239" fill="#8DA3BE">ORIGIN</text><path d="M510 235 H600" stroke="#8DA3BE" stroke-dasharray="2 5" opacity="0.7"/><text x="615" y="239" fill="#E8F1FF" font-family="Arial, Helvetica, sans-serif" font-size="16">Bengaluru, India</text>
+</g>
+<g opacity="0.42" transform="translate(-8 0)">
+  <animate attributeName="opacity" from="0.42" to="1" begin="1.68s" dur="0.48s" fill="freeze" />
+  <animateTransform attributeName="transform" type="translate" from="0 0" to="8 0" additive="sum" begin="1.68s" dur="0.48s" fill="freeze" />
   <text x="454" y="277" fill="#8DA3BE">EDUCATION</text><path d="M535 273 H600" stroke="#8DA3BE" stroke-dasharray="2 5" opacity="0.7"/><text x="615" y="277" fill="#E8F1FF" font-family="Arial, Helvetica, sans-serif" font-size="15">B.E. Computer Science &amp; Engineering</text>
+</g>
+<g opacity="0.42" transform="translate(-8 0)">
+  <animate attributeName="opacity" from="0.42" to="1" begin="2.08s" dur="0.48s" fill="freeze" />
+  <animateTransform attributeName="transform" type="translate" from="0 0" to="8 0" additive="sum" begin="2.08s" dur="0.48s" fill="freeze" />
   <text x="454" y="315" fill="#8DA3BE">STATUS</text><path d="M510 311 H600" stroke="#8DA3BE" stroke-dasharray="2 5" opacity="0.7"/><text x="615" y="315" fill="#E8F1FF" font-family="Arial, Helvetica, sans-serif" font-size="16">Building · Learning · Shipping</text>
+</g>
+<g opacity="0.42" transform="translate(-8 0)">
+  <animate attributeName="opacity" from="0.42" to="1" begin="2.48s" dur="0.48s" fill="freeze" />
+  <animateTransform attributeName="transform" type="translate" from="0 0" to="8 0" additive="sum" begin="2.48s" dur="0.48s" fill="freeze" />
   <text x="454" y="353" fill="#8DA3BE">LANGUAGES</text><path d="M541 349 H600" stroke="#8DA3BE" stroke-dasharray="2 5" opacity="0.7"/><text x="615" y="353" fill="#E8F1FF" font-family="Arial, Helvetica, sans-serif" font-size="16">Python · C++ · JavaScript · SQL</text>
+</g>
+<g opacity="0.42" transform="translate(-8 0)">
+  <animate attributeName="opacity" from="0.42" to="1" begin="2.88s" dur="0.48s" fill="freeze" />
+  <animateTransform attributeName="transform" type="translate" from="0 0" to="8 0" additive="sum" begin="2.88s" dur="0.48s" fill="freeze" />
   <text x="454" y="391" fill="#8DA3BE">FRONTEND</text><path d="M530 387 H600" stroke="#8DA3BE" stroke-dasharray="2 5" opacity="0.7"/><text x="615" y="391" fill="#E8F1FF" font-family="Arial, Helvetica, sans-serif" font-size="16">React · Vite · UI Architecture</text>
+</g>
+<g opacity="0.42" transform="translate(-8 0)">
+  <animate attributeName="opacity" from="0.42" to="1" begin="3.28s" dur="0.48s" fill="freeze" />
+  <animateTransform attributeName="transform" type="translate" from="0 0" to="8 0" additive="sum" begin="3.28s" dur="0.48s" fill="freeze" />
   <text x="454" y="429" fill="#8DA3BE">BACKEND</text><path d="M522 425 H600" stroke="#8DA3BE" stroke-dasharray="2 5" opacity="0.7"/><text x="615" y="429" fill="#E8F1FF" font-family="Arial, Helvetica, sans-serif" font-size="16">FastAPI · Django · Node.js · REST APIs</text>
+</g>
+<g opacity="0.42" transform="translate(-8 0)">
+  <animate attributeName="opacity" from="0.42" to="1" begin="3.68s" dur="0.48s" fill="freeze" />
+  <animateTransform attributeName="transform" type="translate" from="0 0" to="8 0" additive="sum" begin="3.68s" dur="0.48s" fill="freeze" />
   <text x="454" y="467" fill="#8DA3BE">DATABASE</text><path d="M523 463 H600" stroke="#8DA3BE" stroke-dasharray="2 5" opacity="0.7"/><text x="615" y="467" fill="#E8F1FF" font-family="Arial, Helvetica, sans-serif" font-size="16">PostgreSQL · MySQL · MongoDB · SQLite</text>
+</g>
+<g opacity="0.42" transform="translate(-8 0)">
+  <animate attributeName="opacity" from="0.42" to="1" begin="4.08s" dur="0.48s" fill="freeze" />
+  <animateTransform attributeName="transform" type="translate" from="0 0" to="8 0" additive="sum" begin="4.08s" dur="0.48s" fill="freeze" />
   <text x="454" y="505" fill="#8DA3BE">TOOLCHAIN</text><path d="M536 501 H600" stroke="#8DA3BE" stroke-dasharray="2 5" opacity="0.7"/><text x="615" y="505" fill="#E8F1FF" font-family="Arial, Helvetica, sans-serif" font-size="16">VS Code · Git · GitHub · Vercel</text>
+</g>
 </g>
 <rect x="454" y="531" width="688" height="38" rx="10" fill="#0B1322" stroke="#1D314B"/>
 <text x="474" y="555" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" fill="#8DA3BE">ENGINEERING RELIABLE SYSTEMS</text>

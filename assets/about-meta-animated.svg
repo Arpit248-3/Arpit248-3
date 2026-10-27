@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="58" viewBox="0 0 1200 58" role="img" aria-labelledby="title desc">
+<title id="title">Education and location</title><desc id="desc">Blue animated line revealing B.E. Computer Science and Engineering, CGPA 8.3 out of 10, Bengaluru, India.</desc>
+<defs>
+  <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38BDF8"/><stop offset="0.55" stop-color="#60A5FA"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+  <clipPath id="reveal"><rect x="0" y="0" width="0" height="58"><animate attributeName="width" values="0;1200;1200;0" keyTimes="0;0.42;0.72;1" dur="7s" repeatCount="indefinite"/></rect></clipPath>
+  <filter id="glow" x="-20%" y="-80%" width="140%" height="260%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<g font-family="'Segoe UI',Arial,sans-serif" font-size="19" font-weight="600" text-anchor="middle" letter-spacing="1.2">
+  <text x="600" y="35" fill="#60A5FA" opacity="0.12">B.E. COMPUTER SCIENCE &amp; ENGINEERING  ·  CGPA 8.3/10  ·  BENGALURU, INDIA</text>
+  <g clip-path="url(#reveal)" filter="url(#glow)"><text x="600" y="35" fill="url(#blue)">B.E. COMPUTER SCIENCE &amp; ENGINEERING  ·  CGPA 8.3/10  ·  BENGALURU, INDIA</text></g>
+</g>
+<circle cx="18" cy="29" r="2.5" fill="#38BDF8"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.4s" repeatCount="indefinite"/></circle>
+<circle cx="1182" cy="29" r="2.5" fill="#A78BFA"><animate attributeName="opacity" values="1;0.15;1" dur="2.8s" repeatCount="indefinite"/></circle>
+</svg>
