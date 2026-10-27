@@ -8,23 +8,22 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   generate:
-    permissions:
-      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 10
-
     steps:
-      - name: Generate contribution snake SVGs
+      - name: Generate light and dark contribution snake SVGs
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Arpit248-3
           outputs: |
-            dist/github-snake.svg?palette=github-light&color_snake=0891B2&color_dots=#ebedf0,#a5b4fc,#818cf8,#6366f1,#0891B2
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=10B981&color_dots=#2d3343,#4b5563,#7C3AED,#A78BFA,#22D3EE
-
-      - name: Publish snake SVGs to output branch
+            dist/github-snake.svg?palette=github-light&color_snake=%230891B2&color_dots=%23ebedf0,%23cbd5e1,%2393c5fd,%236366f1,%230891B2
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=%2310B981&color_dots=%232d3343,%234b5563,%237c3aed,%23a78bfa,%2322d3ee
+      - name: Publish generated SVGs to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
