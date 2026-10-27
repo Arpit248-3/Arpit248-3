@@ -8,7 +8,7 @@
 <p align="center"><img src="./assets/profile-hero.svg" width="100%" alt="Arpit Jham — Team Lead, Full-Stack Developer and AI Product Engineering" /></p>
 <p align="center"><img src="./assets/profile-tagline.svg" width="100%" alt="Animated tagline about scalable projects, premium interfaces and AI product engineering" /></p>
 
-<p align="center"><a href="https://linkedin.com/in/arpit-jham-6963b628a"><img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="18" height="18" alt="LinkedIn" />&nbsp;LinkedIn</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://leetcode.com/u/Arpit24Jh--8-3/"><img src="https://cdn.simpleicons.org/leetcode/FFA116" width="18" height="18" alt="LeetCode" />&nbsp;LeetCode</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="mailto:arpitjham23@gmail.com"><img src="https://cdn.simpleicons.org/gmail/EA4335" width="18" height="18" alt="Email" />&nbsp;Email</a></p>
+<p align="center"><a href="https://linkedin.com/in/arpit-jham-6963b628a"><img src="./assets/linkedin-icon.svg" width="18" height="18" alt="LinkedIn" />&nbsp;LinkedIn</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://leetcode.com/u/Arpit24Jh--8-3/"><img src="./assets/leetcode-icon.svg" width="18" height="18" alt="LeetCode" />&nbsp;LeetCode</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="mailto:arpitjham23@gmail.com"><img src="./assets/email-icon.svg" width="18" height="18" alt="Email" />&nbsp;Email</a></p>
 
 ---
 
@@ -43,21 +43,21 @@ My interests sit at the intersection of **reliable backend services**, **thought
 
 <p align="center"><img src="./assets/leadership-showcase.svg" width="100%" alt="Leadership showcase: team lead for AyuScout AI and VeriDoc AI" /></p>
 
-### <img src="https://img.shields.io/badge/01-TEAM%20LEAD-0F766E?style=flat-square" alt="Team Lead" /> AI for Bharat Hackathon 2026
+### AI for Bharat Hackathon 2026 · <sub>TEAM LEAD</sub>
 
 **Project:** [AyuScout AI ↗](https://github.com/Arpit248-3/Pan-IIT)  
-Led product development for a pharmacovigilance intelligence platform, aligning safety-signal review, patient-data protection, and regulatory reporting into one workflow.
+Led product development for a pharmacovigilance intelligence platform, bringing safety-signal review, patient-data protection, and regulatory reporting into one workflow.
 
-<img src="https://img.shields.io/badge/SAFETY-SIGNALS-0E7490?style=flat-square" alt="Safety signals" /> <img src="https://img.shields.io/badge/PRIVACY-BY%20DESIGN-1D4ED8?style=flat-square" alt="Privacy by design" /> <img src="https://img.shields.io/badge/REGULATORY-REPORTING-0F766E?style=flat-square" alt="Regulatory reporting" />
+<sub><strong>FOCUS</strong> &nbsp; Safety signal review · Privacy by design · Regulatory reporting</sub>
 
 ---
 
-### <img src="https://img.shields.io/badge/02-TEAM%20LEAD-6D28D9?style=flat-square" alt="Team Lead" /> AI Build Challenge Bengaluru
+### AI Build Challenge Bengaluru · <sub>TEAM LEAD</sub>
 
 **Project:** [VeriDoc AI ↗](https://github.com/Arpit248-3/hackingly)  
-Led project direction around offline retrieval-augmented generation, hybrid retrieval, PII protection, and evidence-based claim verification.
+Led project direction for offline retrieval-augmented generation, hybrid retrieval, PII protection, and evidence-based claim verification.
 
-<img src="https://img.shields.io/badge/OFFLINE-RAG-6D28D9?style=flat-square" alt="Offline RAG" /> <img src="https://img.shields.io/badge/HYBRID-RETRIEVAL-4338CA?style=flat-square" alt="Hybrid retrieval" /> <img src="https://img.shields.io/badge/EVIDENCE-VERIFICATION-0F766E?style=flat-square" alt="Evidence verification" />
+<sub><strong>FOCUS</strong> &nbsp; Offline RAG · Hybrid retrieval · Evidence verification</sub>
 
 <p align="center"><img src="./assets/section-skills-accent.svg" width="100%" alt="04 — Technical Skills" /></p>
 
@@ -71,11 +71,9 @@ Led project direction around offline retrieval-augmented generation, hybrid retr
 
 <p align="center"><img src="./assets/section-projects-accent.svg" width="100%" alt="05 — Featured Projects" /></p>
 
-<p align="center"><sub>Selected work in health-tech, energy resilience, and evidence-focused AI</sub></p>
+<p align="center"><sub>Selected engineering work · useful interfaces · reliable systems · evidence-first AI</sub></p>
 
-<p><img src="https://img.shields.io/badge/01-HEALTH%20TECH-0F766E?style=flat-square" alt="Health tech" /> <img src="https://img.shields.io/badge/PRIVACY%20BY%20DESIGN-155E75?style=flat-square" alt="Privacy by design" /></p>
-
-### 🩺 AyuScout AI — Pharmacovigilance Intelligence Platform
+<p><img src="./assets/project-ayuscout.svg" width="100%" alt="AyuScout AI — pharmacovigilance intelligence, safety signals and privacy by design" /></p>
 
 A React dashboard for adverse-event review, safety alerts, KPIs, drug exploration, and report management, backed by FastAPI REST APIs.
 
@@ -83,44 +81,53 @@ A React dashboard for adverse-event review, safety alerts, KPIs, drug exploratio
 - **Data quality:** Drug-name normalization with fuzzy matching.
 - **Reporting:** ICH E2B(R3) XML report exports.
 
-<img src="https://skillicons.dev/icons?i=react,fastapi,sqlite&amp;theme=dark" height="36" alt="React, FastAPI and SQLite" />
+<p><img src="https://skillicons.dev/icons?i=react,fastapi,sqlite&amp;theme=dark" height="34" alt="React, FastAPI and SQLite" /></p>
 
-<p><a href="https://github.com/Arpit248-3/Pan-IIT"><img src="https://img.shields.io/badge/SOURCE-Pan--IIT-0F766E?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="AyuScout source repository" /></a> <a href="https://ayuscout-frontend.onrender.com/"><img src="https://img.shields.io/badge/LIVE%20DEMO-OPEN-2563EB?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white" alt="AyuScout live demo" /></a></p>
+**Explore:** [Source repository ↗](https://github.com/Arpit248-3/Pan-IIT) &nbsp;·&nbsp; [Live demo ↗](https://ayuscout-frontend.onrender.com/)
 
 ---
 
-<p><img src="https://img.shields.io/badge/02-ENERGY%20AI-0F766E?style=flat-square" alt="Energy AI" /> <img src="https://img.shields.io/badge/EARLY%20WARNING-1D4ED8?style=flat-square" alt="Early warning" /></p>
+<p><img src="./assets/project-urjanetra.svg" width="100%" alt="UrjaNetra AI — energy supply-chain forecasting and risk signals" /></p>
 
-### ⚡ UrjaNetra AI — Energy Supply-Chain Decision Support
-
-An early-warning concept for import-dependent energy supply chains that combines weather, shipping, commodity, demand, and geopolitical signals.
+An early-warning concept for import-dependent energy supply chains, combining weather, shipping, commodity, energy-demand, and geopolitical signals.
 
 - **Forecasts:** 24-hour, 3-day, 7-day, and 30-day horizons.
 - **Models:** LSTM, Transformer, and XGBoost approaches.
 - **Decision support:** Risk heatmaps, geospatial alerts, and scenario planning.
 
-<img src="https://skillicons.dev/icons?i=python&amp;theme=dark" height="36" alt="Python" />
+<p><img src="https://skillicons.dev/icons?i=python&amp;theme=dark" height="34" alt="Python" /></p>
 
-<p><a href="https://github.com/Arpit248-3/ET2"><img src="https://img.shields.io/badge/SOURCE-ET2-1D4ED8?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="UrjaNetra source repository" /></a></p>
+**Explore:** [Source repository ↗](https://github.com/Arpit248-3/ET2)
 
 ---
 
-<p><img src="https://img.shields.io/badge/03-AI%20SYSTEMS-6D28D9?style=flat-square" alt="AI systems" /> <img src="https://img.shields.io/badge/EVIDENCE%20FOCUSED-4338CA?style=flat-square" alt="Evidence focused" /></p>
+<p><img src="./assets/project-veridoc.svg" width="100%" alt="VeriDoc AI — offline retrieval and evidence-based claim verification" /></p>
 
-### 🔎 VeriDoc AI — Offline RAG & Evidence-Based Claim Verification
+An offline RAG and claim-verification project built around hybrid BM25 and dense retrieval, PII protection, and evidence-grounded answers for workflows where traceability matters.
 
-A hackathon project focused on offline retrieval-augmented generation, hybrid BM25 and dense retrieval, PII protection, and evidence-grounded claim verification for workflows where traceability matters.
+<sub><strong>CAPABILITIES</strong> &nbsp; Offline retrieval · Hybrid search · Privacy protection · Evidence verification</sub>
 
-<p><img src="https://img.shields.io/badge/OFFLINE%20RAG-6D28D9?style=flat-square" alt="Offline RAG" /> <img src="https://img.shields.io/badge/HYBRID%20RETRIEVAL-4338CA?style=flat-square" alt="Hybrid retrieval" /> <img src="https://img.shields.io/badge/PII%20PROTECTION-0E7490?style=flat-square" alt="PII protection" /> <img src="https://img.shields.io/badge/EVIDENCE%20VERIFICATION-0F766E?style=flat-square" alt="Evidence verification" /></p>
+**Explore:** [Source repository ↗](https://github.com/Arpit248-3/hackingly)
 
-<p><a href="https://github.com/Arpit248-3/hackingly"><img src="https://img.shields.io/badge/SOURCE-HACKINGLY-6D28D9?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="VeriDoc AI source repository" /></a></p>
-
-<p align="center"><a href="https://github.com/Arpit248-3?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-ALL%20PUBLIC%20REPOSITORIES-334155?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Explore all public repositories" /></a></p>
+<p align="center"><sub>More work: <a href="https://github.com/Arpit248-3?tab=repositories">browse all public repositories ↗</a></sub></p>
 
 <p align="center"><img src="./assets/section-achievements-accent.svg" width="100%" alt="06 — Achievements" /></p>
 
 <table width="100%">
-<tr><td width="50%" valign="top"><p><img src="https://img.shields.io/badge/01-THEME%20WINNER-0F766E?style=for-the-badge" alt="Theme winner" /></p><p><img src="./assets/achievement-ai-for-bharat.svg" width="100%" alt="AI for Bharat Hackathon 2026 theme winner and Top 4 among 16,200+ registrations" /></p><h3>AI for Bharat Hackathon 2026</h3><p><strong>Patient Experience &amp; Safety Signals</strong></p><p>Theme winner with AyuScout AI; ranked <strong>Top 4 among 16,200+ registrations</strong>.</p><p><img src="https://img.shields.io/badge/TOP%204-16%2C200%2B%20REGISTRATIONS-1D4ED8?style=flat-square" alt="Top 4 among 16,200+ registrations" /></p></td><td width="50%" valign="top"><p><img src="https://img.shields.io/badge/02-1ST%20RUNNER--UP-D97706?style=for-the-badge" alt="First runner-up" /></p><p><img src="./assets/achievement-ai-build-challenge.svg" width="100%" alt="First runner-up at AI Build Challenge Bengaluru, September 2026" /></p><h3>AI Build Challenge Bengaluru</h3><p><strong>Masters’ Union Ventures · Powered by Hackingly</strong></p><p>1st Runner-Up · September 2026.</p></td></tr>
+<tr>
+<td width="50%" valign="top">
+  <p><img src="./assets/achievement-ai-for-bharat.svg" width="100%" alt="AI for Bharat Hackathon 2026 — Theme Winner and Top 4 among 16,200+ registrations" /></p>
+  <h3>AI for Bharat Hackathon 2026</h3>
+  <p><strong>Theme Winner · Patient Experience &amp; Safety Signals</strong></p>
+  <p>Recognized with AyuScout AI; ranked <strong>Top 4 among 16,200+ registrations</strong>.</p>
+</td>
+<td width="50%" valign="top">
+  <p><img src="./assets/achievement-ai-build-challenge.svg" width="100%" alt="AI Build Challenge Bengaluru — First Runner-Up" /></p>
+  <h3>AI Build Challenge Bengaluru</h3>
+  <p><strong>1st Runner-Up · Masters’ Union Ventures, powered by Hackingly</strong></p>
+  <p>September 2026 · VeriDoc AI</p>
+</td>
+</tr>
 </table>
 
 ---
@@ -141,6 +148,6 @@ PHASE 3 END -->
 
 ## 🤝 Connect
 
-<p align="center"><a href="https://linkedin.com/in/arpit-jham-6963b628a"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn — connect with Arpit Jham" /></a>&nbsp;&nbsp;<a href="https://leetcode.com/u/Arpit24Jh--8-3/"><img src="https://img.shields.io/badge/LeetCode-0A101F?style=for-the-badge&amp;logo=leetcode&amp;logoColor=FFA116&amp;labelColor=0A101F" alt="LeetCode — Arpit Jham's profile" /></a>&nbsp;&nbsp;<a href="mailto:arpitjham23@gmail.com"><img src="https://img.shields.io/badge/Email-arpitjham23%40gmail.com-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email Arpit Jham" /></a></p>
+<p align="center"><a href="https://linkedin.com/in/arpit-jham-6963b628a"><img src="./assets/linkedin-icon.svg" width="18" height="18" alt="LinkedIn" />&nbsp;LinkedIn</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://leetcode.com/u/Arpit24Jh--8-3/"><img src="./assets/leetcode-icon.svg" width="18" height="18" alt="LeetCode" />&nbsp;LeetCode</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="mailto:arpitjham23@gmail.com"><img src="./assets/email-icon.svg" width="18" height="18" alt="Email" />&nbsp;Email</a></p>
 
 <p align="center"><sub>Focused on useful interfaces, reliable systems, privacy-aware AI, and products built to solve real problems.</sub></p>
