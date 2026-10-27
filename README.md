@@ -1,4 +1,4 @@
-<!-- ARPIT JHAM | GitHub profile README
+﻿<!-- ARPIT JHAM | GitHub profile README
 
      Uses dark.svg and light.svg in the repository root.
 
@@ -8,9 +8,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Arpit248-3/Arpit248-3/main/dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Arpit248-3/Arpit248-3/main/light.svg" />
-    <img src="https://raw.githubusercontent.com/Arpit248-3/Arpit248-3/main/light.svg" width="100%" alt="Arpit Jham — animated terminal profile banner" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Arpit248-3/Arpit248-3/main/banner-dark.gif" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Arpit248-3/Arpit248-3/main/banner-light.gif" />
+    <img src="https://raw.githubusercontent.com/Arpit248-3/Arpit248-3/main/banner-light.gif" width="100%" alt="Arpit Jham â€” animated terminal profile banner" />
   </picture>
 </p>
 <p align="center">
@@ -39,18 +39,18 @@
 ---
 
 <p align="center">
-  <img src="./assets/section-about-accent.svg" width="100%" alt="01 — About" />
+  <img src="./assets/section-about-accent.svg" width="100%" alt="01 â€” About" />
 </p>
 
 I'm a Computer Science and Engineering student at **Dr. Ambedkar Institute of Technology, Bengaluru**, with a **CGPA of 8.3/10**. I work across frontend interfaces, backend APIs, databases, and applied AI to turn complex workflows into practical software.
 
 My interests sit at the intersection of **reliable backend services**, **thoughtful UI/UX**, **privacy-aware data handling**, and **AI-assisted decision support**. I enjoy taking a problem from product framing and system design through implementation and a clear user-facing experience.
 
-<p align="center"><img src="./assets/about-meta-animated.svg" width="100%" alt="B.E. Computer Science and Engineering · CGPA 8.3 out of 10 · Bengaluru, India" /></p>
+<p align="center"><img src="./assets/about-meta-animated.svg" width="100%" alt="B.E. Computer Science and Engineering Â· CGPA 8.3 out of 10 Â· Bengaluru, India" /></p>
 <p align="center">
-  <img src="./assets/section-contributions-accent.svg" width="100%" alt="02 — Contributions" />
+  <img src="./assets/section-contributions-accent.svg" width="100%" alt="02 â€” Contributions" />
 </p>
-<p align="center"><sub>RECENT ACTIVITY &nbsp;·&nbsp; LAST 31 DAYS</sub></p>
+<p align="center"><sub>RECENT ACTIVITY &nbsp;Â·&nbsp; LAST 31 DAYS</sub></p>
 <p align="center">
   <img src="./activity-graph.svg" width="100%" alt="GitHub activity line chart for the last 31 days" />
 </p>
@@ -63,23 +63,23 @@ My interests sit at the intersection of **reliable backend services**, **thought
   <img src="./stats.svg" width="49%" alt="GitHub contribution statistics and monthly activity chart" />
 </p>
 <p align="center">
-  <img src="./assets/section-leadership-accent.svg" width="100%" alt="03 — Leadership Experience" />
+  <img src="./assets/section-leadership-accent.svg" width="100%" alt="03 â€” Leadership Experience" />
 </p>
-<p align="center"><img src="./assets/leadership-ayuscout.svg" width="100%" alt="Animated AI for Bharat Hackathon leadership showcase — AyuScout AI" /></p>
+<p align="center"><img src="./assets/leadership-ayuscout.gif" width="100%" alt="Animated AI for Bharat Hackathon leadership showcase â€” AyuScout AI" /></p>
 <p align="center"><a href="https://github.com/Arpit248-3/Pan-IIT"><img src="./assets/github-mark.svg" width="17" height="17" alt="GitHub" />&nbsp; AyuScout AI repository</a></p>
 <p align="center">
-  <img src="./assets/section-skills-accent.svg" width="100%" alt="04 — Technical Skills" />
+  <img src="./assets/section-skills-accent.svg" width="100%" alt="04 â€” Technical Skills" />
 </p>
-<p align="center"><sub>Full-stack toolkit · two-column engineering stack</sub></p>
+<p align="center"><sub>Full-stack toolkit Â· two-column engineering stack</sub></p>
 <p align="center">
-  <img src="./assets/skills-grid.svg" width="100%" alt="Technical Skills — six skill domains in a two-column animated grid" />
+  <img src="./assets/skills-grid.svg" width="100%" alt="Technical Skills â€” six skill domains in a two-column animated grid" />
 </p>
 <p align="center">
-  <img src="./assets/section-projects-accent.svg" width="100%" alt="05 — Featured Projects" />
+  <img src="./assets/section-projects-accent.svg" width="100%" alt="05 â€” Featured Projects" />
 </p>
-<p align="center"><sub>Selected engineering work · useful interfaces · reliable systems · evidence-first AI</sub></p>
+<p align="center"><sub>Selected engineering work Â· useful interfaces Â· reliable systems Â· evidence-first AI</sub></p>
 <p>
-  <img src="./assets/project-ayuscout.svg" width="100%" alt="AyuScout AI — pharmacovigilance intelligence, safety signals and privacy by design" />
+  <img src="./assets/project-ayuscout.svg" width="100%" alt="AyuScout AI â€” pharmacovigilance intelligence, safety signals and privacy by design" />
 </p>
 
 A React dashboard for adverse-event review, safety alerts, KPIs, drug exploration, and report management, backed by FastAPI REST APIs.
@@ -99,7 +99,7 @@ A React dashboard for adverse-event review, safety alerts, KPIs, drug exploratio
 ---
 
 <p>
-  <img src="./assets/project-urjanetra.svg" width="100%" alt="UrjaNetra AI — energy supply-chain forecasting and risk signals" />
+  <img src="./assets/project-urjanetra.svg" width="100%" alt="UrjaNetra AI â€” energy supply-chain forecasting and risk signals" />
 </p>
 
 An early-warning concept for import-dependent energy supply chains, combining weather, shipping, commodity, energy-demand, and geopolitical signals.
@@ -119,23 +119,23 @@ An early-warning concept for import-dependent energy supply chains, combining we
 ---
 
 <p>
-  <img src="./assets/project-veridoc.svg" width="100%" alt="VeriDoc AI — offline retrieval and evidence-based claim verification" />
+  <img src="./assets/project-veridoc.svg" width="100%" alt="VeriDoc AI â€” offline retrieval and evidence-based claim verification" />
 </p>
 
 An offline RAG and claim-verification project built around hybrid BM25 and dense retrieval, PII protection, and evidence-grounded answers for workflows where traceability matters.
 
-<sub><strong>CAPABILITIES</strong> &nbsp; Offline retrieval · Hybrid search · Privacy protection · Evidence verification</sub>
+<sub><strong>CAPABILITIES</strong> &nbsp; Offline retrieval Â· Hybrid search Â· Privacy protection Â· Evidence verification</sub>
 
 <a href="https://github.com/Arpit248-3/hackingly"><img src="./assets/github-mark.svg" width="16" height="16" alt="GitHub" />&nbsp; VeriDoc AI repository</a>
 
 <p align="center"><sub>More work: <a href="https://github.com/Arpit248-3?tab=repositories"><img src="./assets/github-mark.svg" width="15" height="15" alt="GitHub" />&nbsp; Browse all public repositories</a></sub></p>
 <p align="center">
-  <img src="./assets/section-achievements-accent.svg" width="100%" alt="06 — Achievements" />
+  <img src="./assets/section-achievements-accent.svg" width="100%" alt="06 â€” Achievements" />
 </p>
 <table width="100%">
 <tr>
-<td width="50%" valign="top"><img src="./assets/achievement-ai-for-bharat.svg" width="100%" alt="AI for Bharat Hackathon 2026 — Theme Winner and Top 4 among 16,200+ registrations" /></td>
-<td width="50%" valign="top"><img src="./assets/achievement-ai-build-challenge.svg" width="100%" alt="AI Build Challenge Bengaluru — First Runner-Up" /></td>
+<td width="50%" valign="top"><img src="./assets/achievement-ai-for-bharat.svg" width="100%" alt="AI for Bharat Hackathon 2026 â€” Theme Winner and Top 4 among 16,200+ registrations" /></td>
+<td width="50%" valign="top"><img src="./assets/achievement-ai-build-challenge.svg" width="100%" alt="AI Build Challenge Bengaluru â€” First Runner-Up" /></td>
 </tr>
 </table>
 
@@ -155,7 +155,8 @@ An offline RAG and claim-verification project built around hybrid BM25 and dense
 
 ## Connect
 
-<p align="center"><a href="https://linkedin.com/in/arpit-jham-6963b628a"><img src="./assets/linkedin-icon.svg" width="26" height="26" alt="LinkedIn" /></a>&nbsp;<a href="https://linkedin.com/in/arpit-jham-6963b628a">LinkedIn</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://leetcode.com/u/Arpit24Jh--8-3/"><img src="./assets/leetcode-icon.svg" width="26" height="26" alt="LeetCode" /></a>&nbsp;<a href="https://leetcode.com/u/Arpit24Jh--8-3/">LeetCode</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="mailto:arpitjham23@gmail.com"><img src="./assets/email-icon.svg" width="26" height="26" alt="Email" /></a>&nbsp;<a href="mailto:arpitjham23@gmail.com">Email</a></p>
+<p align="center"><a href="https://linkedin.com/in/arpit-jham-6963b628a"><img src="./assets/linkedin-icon.svg" width="26" height="26" alt="LinkedIn" /></a>&nbsp;<a href="https://linkedin.com/in/arpit-jham-6963b628a">LinkedIn</a>&nbsp;&nbsp;Â·&nbsp;&nbsp;<a href="https://leetcode.com/u/Arpit24Jh--8-3/"><img src="./assets/leetcode-icon.svg" width="26" height="26" alt="LeetCode" /></a>&nbsp;<a href="https://leetcode.com/u/Arpit24Jh--8-3/">LeetCode</a>&nbsp;&nbsp;Â·&nbsp;&nbsp;<a href="mailto:arpitjham23@gmail.com"><img src="./assets/email-icon.svg" width="26" height="26" alt="Email" /></a>&nbsp;<a href="mailto:arpitjham23@gmail.com">Email</a></p>
 <p align="center">
   <sub>Focused on useful interfaces, reliable systems, privacy-aware AI, and products built to solve real problems.</sub>
 </p>
+
