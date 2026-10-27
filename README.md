@@ -174,17 +174,13 @@ An offline RAG and claim-verification project built around hybrid BM25 and dense
 
 ## Contribution Snake
 
-<p align="center"><img src="./assets/snake-preview.svg" width="100%" alt="Contribution snake preview — run the Generate Snake Animation workflow to activate the live version" /></p>
-
-<!-- After the workflow succeeds and the output branch contains both SVGs, replace the preview above with this live block:
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Arpit248-3/Arpit248-3/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Arpit248-3/Arpit248-3/output/github-snake.svg" />
-    <img src="https://raw.githubusercontent.com/Arpit248-3/Arpit248-3/output/github-snake.svg" width="100%" alt="Snake animation of Arpit Jham's GitHub contributions" />
+    <img src="https://raw.githubusercontent.com/Arpit248-3/Arpit248-3/output/github-snake.svg" width="100%" alt="Animated GitHub contribution snake for Arpit Jham" />
   </picture>
 </p>
--->
 
 ---
 
