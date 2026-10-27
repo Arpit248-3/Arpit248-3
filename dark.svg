@@ -17,16 +17,23 @@
 <text x="1148" y="30" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" fill="#22D3EE">PROFILE / 01</text>
 <rect x="18" y="60" width="398" height="530" rx="19" fill="#101D31" stroke="#1D314B"/>
 <rect x="34" y="82" width="366" height="460" rx="18" fill="#0B1322"/>
-<rect x="34" y="82" width="366" height="460" rx="18" fill="none" stroke="#22D3EE" stroke-opacity="0.85" stroke-width="2"/>
+<rect x="34" y="82" width="366" height="460" rx="18" fill="none" stroke="#22D3EE" stroke-opacity="0.85" stroke-width="2">
+  <animate attributeName="stroke-opacity" values="0.62;0.98;0.72;0.92;0.62" dur="5.2s" repeatCount="indefinite" />
+</rect>
 <rect x="35" y="82" width="364" height="460" rx="18" fill="url(#dots)" opacity="0.33"/>
 <!-- ASCII portrait: each visible glyph was sampled from the supplied photo, but the photo itself is not embedded. -->
 <g font-family="Consolas, 'Courier New', monospace" font-weight="700" text-anchor="start" aria-label="ASCII portrait">
+<g opacity="0.90" aria-label="Animated ASCII portrait row 1">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="0.00s" repeatCount="indefinite" />
 <text x="201.64" y="121.10" fill="#60A5FA" font-size="7.15">o</text>
 <text x="206.16" y="121.10" fill="#22D3EE" font-size="7.15">%</text>
 <text x="210.68" y="121.10" fill="#60A5FA" font-size="7.15">o</text>
 <text x="215.20" y="121.10" fill="#22D3EE" font-size="7.15">x</text>
 <text x="219.72" y="121.10" fill="#22D3EE" font-size="7.15">x</text>
 <text x="224.24" y="121.10" fill="#22D3EE" font-size="7.15">x</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 2">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="0.06s" repeatCount="indefinite" />
 <text x="179.04" y="129.15" fill="#22D3EE" font-size="7.15">%</text>
 <text x="183.56" y="129.15" fill="#22D3EE" font-size="7.15">x</text>
 <text x="188.08" y="129.15" fill="#22D3EE" font-size="7.15">x</text>
@@ -44,6 +51,9 @@
 <text x="242.32" y="129.15" fill="#22D3EE" font-size="7.15">x</text>
 <text x="246.84" y="129.15" fill="#22D3EE" font-size="7.15">x</text>
 <text x="251.36" y="129.15" fill="#22D3EE" font-size="7.15">#</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 3">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="0.11s" repeatCount="indefinite" />
 <text x="170.00" y="137.20" fill="#22D3EE" font-size="7.15">x</text>
 <text x="174.52" y="137.20" fill="#22D3EE" font-size="7.15">x</text>
 <text x="179.04" y="137.20" fill="#22D3EE" font-size="7.15">x</text>
@@ -65,6 +75,9 @@
 <text x="251.36" y="137.20" fill="#22D3EE" font-size="7.15">x</text>
 <text x="255.88" y="137.20" fill="#22D3EE" font-size="7.15">x</text>
 <text x="260.40" y="137.20" fill="#22D3EE" font-size="7.15">x</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 4">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="0.17s" repeatCount="indefinite" />
 <text x="160.96" y="145.25" fill="#22D3EE" font-size="7.15">=</text>
 <text x="165.48" y="145.25" fill="#22D3EE" font-size="7.15">x</text>
 <text x="170.00" y="145.25" fill="#22D3EE" font-size="7.15">x</text>
@@ -90,6 +103,9 @@
 <text x="260.40" y="145.25" fill="#22D3EE" font-size="7.15">x</text>
 <text x="264.92" y="145.25" fill="#22D3EE" font-size="7.15">x</text>
 <text x="269.44" y="145.25" fill="#60A5FA" font-size="7.15">*</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 5">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="0.22s" repeatCount="indefinite" />
 <text x="156.44" y="153.30" fill="#22D3EE" font-size="7.15">=</text>
 <text x="160.96" y="153.30" fill="#22D3EE" font-size="7.15">x</text>
 <text x="165.48" y="153.30" fill="#22D3EE" font-size="7.15">x</text>
@@ -117,6 +133,9 @@
 <text x="264.92" y="153.30" fill="#22D3EE" font-size="7.15">x</text>
 <text x="269.44" y="153.30" fill="#60A5FA" font-size="7.15">o</text>
 <text x="273.96" y="153.30" fill="#A78BFA" font-size="7.15">:</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 6">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="0.28s" repeatCount="indefinite" />
 <text x="151.92" y="161.35" fill="#22D3EE" font-size="7.15">=</text>
 <text x="156.44" y="161.35" fill="#22D3EE" font-size="7.15">x</text>
 <text x="160.96" y="161.35" fill="#22D3EE" font-size="7.15">x</text>
@@ -146,6 +165,9 @@
 <text x="269.44" y="161.35" fill="#22D3EE" font-size="7.15">%</text>
 <text x="273.96" y="161.35" fill="#60A5FA" font-size="7.15">=</text>
 <text x="278.48" y="161.35" fill="#A78BFA" font-size="7.15">:</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 7">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="0.33s" repeatCount="indefinite" />
 <text x="147.40" y="169.40" fill="#22D3EE" font-size="7.15">-</text>
 <text x="151.92" y="169.40" fill="#22D3EE" font-size="7.15">o</text>
 <text x="156.44" y="169.40" fill="#22D3EE" font-size="7.15">x</text>
@@ -177,6 +199,9 @@
 <text x="273.96" y="169.40" fill="#60A5FA" font-size="7.15">=</text>
 <text x="278.48" y="169.40" fill="#A78BFA" font-size="7.15">:</text>
 <text x="283.00" y="169.40" fill="#A78BFA" font-size="7.15">:</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 8">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="0.39s" repeatCount="indefinite" />
 <text x="147.40" y="177.45" fill="#22D3EE" font-size="7.15">=</text>
 <text x="151.92" y="177.45" fill="#22D3EE" font-size="7.15">x</text>
 <text x="156.44" y="177.45" fill="#22D3EE" font-size="7.15">x</text>
@@ -208,6 +233,9 @@
 <text x="273.96" y="177.45" fill="#60A5FA" font-size="7.15">*</text>
 <text x="278.48" y="177.45" fill="#D6E7FF" font-size="7.15">,</text>
 <text x="283.00" y="177.45" fill="#A78BFA" font-size="7.15">:</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 9">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="0.44s" repeatCount="indefinite" />
 <text x="142.88" y="185.50" fill="#22D3EE" font-size="7.15">:</text>
 <text x="147.40" y="185.50" fill="#22D3EE" font-size="7.15">-</text>
 <text x="151.92" y="185.50" fill="#22D3EE" font-size="7.15">o</text>
@@ -240,6 +268,9 @@
 <text x="273.96" y="185.50" fill="#60A5FA" font-size="7.15">o</text>
 <text x="278.48" y="185.50" fill="#D6E7FF" font-size="7.15">,</text>
 <text x="283.00" y="185.50" fill="#A78BFA" font-size="7.15">:</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 10">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="0.49s" repeatCount="indefinite" />
 <text x="142.88" y="193.55" fill="#22D3EE" font-size="7.15">:</text>
 <text x="147.40" y="193.55" fill="#22D3EE" font-size="7.15">.</text>
 <text x="151.92" y="193.55" fill="#22D3EE" font-size="7.15">=</text>
@@ -273,6 +304,9 @@
 <text x="278.48" y="193.55" fill="#D6E7FF" font-size="7.15">,</text>
 <text x="283.00" y="193.55" fill="#A78BFA" font-size="7.15">:</text>
 <text x="287.52" y="193.55" fill="#A78BFA" font-size="7.15">:</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 11">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="0.55s" repeatCount="indefinite" />
 <text x="142.88" y="201.60" fill="#22D3EE" font-size="7.15">:</text>
 <text x="147.40" y="201.60" fill="#22D3EE" font-size="7.15">.</text>
 <text x="151.92" y="201.60" fill="#22D3EE" font-size="7.15">=</text>
@@ -305,6 +339,9 @@
 <text x="273.96" y="201.60" fill="#60A5FA" font-size="7.15">*</text>
 <text x="278.48" y="201.60" fill="#D6E7FF" font-size="7.15">,</text>
 <text x="283.00" y="201.60" fill="#A78BFA" font-size="7.15">:</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 12">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="0.60s" repeatCount="indefinite" />
 <text x="142.88" y="209.65" fill="#22D3EE" font-size="7.15">:</text>
 <text x="151.92" y="209.65" fill="#22D3EE" font-size="7.15">-</text>
 <text x="156.44" y="209.65" fill="#22D3EE" font-size="7.15">*</text>
@@ -336,6 +373,9 @@
 <text x="273.96" y="209.65" fill="#60A5FA" font-size="7.15">=</text>
 <text x="278.48" y="209.65" fill="#A78BFA" font-size="7.15">:</text>
 <text x="283.00" y="209.65" fill="#A78BFA" font-size="7.15">:</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 13">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="0.66s" repeatCount="indefinite" />
 <text x="142.88" y="217.70" fill="#22D3EE" font-size="7.15">:</text>
 <text x="147.40" y="217.70" fill="#22D3EE" font-size="7.15">:</text>
 <text x="151.92" y="217.70" fill="#22D3EE" font-size="7.15">-</text>
@@ -368,6 +408,9 @@
 <text x="273.96" y="217.70" fill="#A78BFA" font-size="7.15">~</text>
 <text x="278.48" y="217.70" fill="#A78BFA" font-size="7.15">:</text>
 <text x="283.00" y="217.70" fill="#A78BFA" font-size="7.15">:</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 14">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="0.71s" repeatCount="indefinite" />
 <text x="147.40" y="225.75" fill="#22D3EE" font-size="7.15">:</text>
 <text x="151.92" y="225.75" fill="#22D3EE" font-size="7.15">-</text>
 <text x="156.44" y="225.75" fill="#22D3EE" font-size="7.15">-</text>
@@ -398,6 +441,9 @@
 <text x="269.44" y="225.75" fill="#22D3EE" font-size="7.15">x</text>
 <text x="273.96" y="225.75" fill="#A78BFA" font-size="7.15">-</text>
 <text x="278.48" y="225.75" fill="#A78BFA" font-size="7.15">:</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 15">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="0.77s" repeatCount="indefinite" />
 <text x="147.40" y="233.80" fill="#22D3EE" font-size="7.15">:</text>
 <text x="151.92" y="233.80" fill="#22D3EE" font-size="7.15">:</text>
 <text x="156.44" y="233.80" fill="#22D3EE" font-size="7.15">-</text>
@@ -428,6 +474,9 @@
 <text x="269.44" y="233.80" fill="#A78BFA" font-size="7.15">-</text>
 <text x="273.96" y="233.80" fill="#A78BFA" font-size="7.15">~</text>
 <text x="278.48" y="233.80" fill="#A78BFA" font-size="7.15">:</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 16">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="0.82s" repeatCount="indefinite" />
 <text x="151.92" y="241.85" fill="#22D3EE" font-size="7.15">:</text>
 <text x="156.44" y="241.85" fill="#22D3EE" font-size="7.15">:</text>
 <text x="160.96" y="241.85" fill="#22D3EE" font-size="7.15">=</text>
@@ -456,6 +505,9 @@
 <text x="264.92" y="241.85" fill="#A78BFA" font-size="7.15">~</text>
 <text x="269.44" y="241.85" fill="#60A5FA" font-size="7.15">=</text>
 <text x="273.96" y="241.85" fill="#A78BFA" font-size="7.15">:</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 17">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="0.88s" repeatCount="indefinite" />
 <text x="156.44" y="249.90" fill="#22D3EE" font-size="7.15">:</text>
 <text x="160.96" y="249.90" fill="#22D3EE" font-size="7.15">:</text>
 <text x="165.48" y="249.90" fill="#60A5FA" font-size="7.15">=</text>
@@ -481,6 +533,9 @@
 <text x="255.88" y="249.90" fill="#22D3EE" font-size="7.15">x</text>
 <text x="260.40" y="249.90" fill="#60A5FA" font-size="7.15">*</text>
 <text x="264.92" y="249.90" fill="#60A5FA" font-size="7.15">=</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 18">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="0.94s" repeatCount="indefinite" />
 <text x="160.96" y="257.95" fill="#22D3EE" font-size="7.15">:</text>
 <text x="165.48" y="257.95" fill="#A78BFA" font-size="7.15">:</text>
 <text x="170.00" y="257.95" fill="#60A5FA" font-size="7.15">=</text>
@@ -504,6 +559,9 @@
 <text x="251.36" y="257.95" fill="#22D3EE" font-size="7.15">x</text>
 <text x="255.88" y="257.95" fill="#22D3EE" font-size="7.15">x</text>
 <text x="260.40" y="257.95" fill="#60A5FA" font-size="7.15">=</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 19">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="0.99s" repeatCount="indefinite" />
 <text x="170.00" y="266.00" fill="#A78BFA" font-size="7.15">:</text>
 <text x="174.52" y="266.00" fill="#60A5FA" font-size="7.15">=</text>
 <text x="179.04" y="266.00" fill="#60A5FA" font-size="7.15">*</text>
@@ -523,6 +581,9 @@
 <text x="242.32" y="266.00" fill="#22D3EE" font-size="7.15">x</text>
 <text x="246.84" y="266.00" fill="#22D3EE" font-size="7.15">x</text>
 <text x="251.36" y="266.00" fill="#22D3EE" font-size="7.15">x</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 20">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="1.04s" repeatCount="indefinite" />
 <text x="179.04" y="274.05" fill="#60A5FA" font-size="7.15">+</text>
 <text x="183.56" y="274.05" fill="#22D3EE" font-size="7.15">x</text>
 <text x="188.08" y="274.05" fill="#22D3EE" font-size="7.15">%</text>
@@ -538,6 +599,9 @@
 <text x="233.28" y="274.05" fill="#22D3EE" font-size="7.15">x</text>
 <text x="237.80" y="274.05" fill="#22D3EE" font-size="7.15">x</text>
 <text x="242.32" y="274.05" fill="#22D3EE" font-size="7.15">x</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 21">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="1.10s" repeatCount="indefinite" />
 <text x="179.04" y="282.10" fill="#22D3EE" font-size="7.15">x</text>
 <text x="183.56" y="282.10" fill="#60A5FA" font-size="7.15">o</text>
 <text x="188.08" y="282.10" fill="#22D3EE" font-size="7.15">%</text>
@@ -553,6 +617,9 @@
 <text x="233.28" y="282.10" fill="#22D3EE" font-size="7.15">x</text>
 <text x="237.80" y="282.10" fill="#22D3EE" font-size="7.15">x</text>
 <text x="242.32" y="282.10" fill="#22D3EE" font-size="7.15">x</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 22">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="1.16s" repeatCount="indefinite" />
 <text x="179.04" y="290.15" fill="#60A5FA" font-size="7.15">=</text>
 <text x="183.56" y="290.15" fill="#22D3EE" font-size="7.15">x</text>
 <text x="188.08" y="290.15" fill="#60A5FA" font-size="7.15">o</text>
@@ -570,6 +637,9 @@
 <text x="242.32" y="290.15" fill="#60A5FA" font-size="7.15">+</text>
 <text x="246.84" y="290.15" fill="#60A5FA" font-size="7.15">+</text>
 <text x="251.36" y="290.15" fill="#60A5FA" font-size="7.15">o</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 23">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="1.21s" repeatCount="indefinite" />
 <text x="170.00" y="298.20" fill="#A78BFA" font-size="7.15">:</text>
 <text x="174.52" y="298.20" fill="#A78BFA" font-size="7.15">:</text>
 <text x="179.04" y="298.20" fill="#60A5FA" font-size="7.15">=</text>
@@ -592,6 +662,9 @@
 <text x="255.88" y="298.20" fill="#60A5FA" font-size="7.15">+</text>
 <text x="260.40" y="298.20" fill="#A78BFA" font-size="7.15">~</text>
 <text x="264.92" y="298.20" fill="#A78BFA" font-size="7.15">:</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 24">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="1.26s" repeatCount="indefinite" />
 <text x="160.96" y="306.25" fill="#22D3EE" font-size="7.15">:</text>
 <text x="165.48" y="306.25" fill="#A78BFA" font-size="7.15">:</text>
 <text x="170.00" y="306.25" fill="#A78BFA" font-size="7.15">:</text>
@@ -621,6 +694,9 @@
 <text x="278.48" y="306.25" fill="#A78BFA" font-size="7.15">:</text>
 <text x="283.00" y="306.25" fill="#A78BFA" font-size="7.15">:</text>
 <text x="287.52" y="306.25" fill="#A78BFA" font-size="7.15">:</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 25">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="1.32s" repeatCount="indefinite" />
 <text x="142.88" y="314.30" fill="#22D3EE" font-size="7.15">:</text>
 <text x="147.40" y="314.30" fill="#22D3EE" font-size="7.15">:</text>
 <text x="151.92" y="314.30" fill="#22D3EE" font-size="7.15">:</text>
@@ -659,6 +735,9 @@
 <text x="301.08" y="314.30" fill="#A78BFA" font-size="7.15">:</text>
 <text x="305.60" y="314.30" fill="#A78BFA" font-size="7.15">:</text>
 <text x="310.12" y="314.30" fill="#A78BFA" font-size="7.15">:</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 26">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="1.38s" repeatCount="indefinite" />
 <text x="124.80" y="322.35" fill="#22D3EE" font-size="7.15">:</text>
 <text x="129.32" y="322.35" fill="#22D3EE" font-size="7.15">:</text>
 <text x="133.84" y="322.35" fill="#22D3EE" font-size="7.15">:</text>
@@ -701,6 +780,9 @@
 <text x="310.12" y="322.35" fill="#A78BFA" font-size="7.15">:</text>
 <text x="314.64" y="322.35" fill="#A78BFA" font-size="7.15">:</text>
 <text x="319.16" y="322.35" fill="#A78BFA" font-size="7.15">:</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 27">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="1.43s" repeatCount="indefinite" />
 <text x="111.24" y="330.40" fill="#22D3EE" font-size="7.15">:</text>
 <text x="115.76" y="330.40" fill="#22D3EE" font-size="7.15">:</text>
 <text x="120.28" y="330.40" fill="#22D3EE" font-size="7.15">:</text>
@@ -750,6 +832,9 @@
 <text x="319.16" y="330.40" fill="#A78BFA" font-size="7.15">:</text>
 <text x="323.68" y="330.40" fill="#A78BFA" font-size="7.15">:</text>
 <text x="328.20" y="330.40" fill="#A78BFA" font-size="7.15">:</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 28">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="1.49s" repeatCount="indefinite" />
 <text x="102.20" y="338.45" fill="#22D3EE" font-size="7.15">:</text>
 <text x="106.72" y="338.45" fill="#22D3EE" font-size="7.15">:</text>
 <text x="111.24" y="338.45" fill="#22D3EE" font-size="7.15">:</text>
@@ -800,6 +885,9 @@
 <text x="323.68" y="338.45" fill="#A78BFA" font-size="7.15">.</text>
 <text x="328.20" y="338.45" fill="#A78BFA" font-size="7.15">:</text>
 <text x="332.72" y="338.45" fill="#A78BFA" font-size="7.15">:</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 29">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="1.54s" repeatCount="indefinite" />
 <text x="97.68" y="346.50" fill="#22D3EE" font-size="7.15">:</text>
 <text x="102.20" y="346.50" fill="#22D3EE" font-size="7.15">:</text>
 <text x="106.72" y="346.50" fill="#22D3EE" font-size="7.15">.</text>
@@ -855,6 +943,9 @@
 <text x="332.72" y="346.50" fill="#A78BFA" font-size="7.15">:</text>
 <text x="337.24" y="346.50" fill="#A78BFA" font-size="7.15">:</text>
 <text x="341.76" y="346.50" fill="#A78BFA" font-size="7.15">:</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 30">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="1.59s" repeatCount="indefinite" />
 <text x="88.64" y="354.55" fill="#22D3EE" font-size="7.15">:</text>
 <text x="93.16" y="354.55" fill="#22D3EE" font-size="7.15">:</text>
 <text x="97.68" y="354.55" fill="#22D3EE" font-size="7.15">:</text>
@@ -912,6 +1003,9 @@
 <text x="332.72" y="354.55" fill="#A78BFA" font-size="7.15">.</text>
 <text x="337.24" y="354.55" fill="#A78BFA" font-size="7.15">.</text>
 <text x="341.76" y="354.55" fill="#A78BFA" font-size="7.15">:</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 31">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="1.65s" repeatCount="indefinite" />
 <text x="84.12" y="362.60" fill="#22D3EE" font-size="7.15">:</text>
 <text x="88.64" y="362.60" fill="#22D3EE" font-size="7.15">:</text>
 <text x="93.16" y="362.60" fill="#22D3EE" font-size="7.15">.</text>
@@ -969,6 +1063,9 @@
 <text x="337.24" y="362.60" fill="#A78BFA" font-size="7.15">.</text>
 <text x="341.76" y="362.60" fill="#A78BFA" font-size="7.15">:</text>
 <text x="346.28" y="362.60" fill="#A78BFA" font-size="7.15">:</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 32">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="1.71s" repeatCount="indefinite" />
 <text x="79.60" y="370.65" fill="#22D3EE" font-size="7.15">:</text>
 <text x="84.12" y="370.65" fill="#22D3EE" font-size="7.15">:</text>
 <text x="88.64" y="370.65" fill="#22D3EE" font-size="7.15">.</text>
@@ -1028,6 +1125,9 @@
 <text x="337.24" y="370.65" fill="#A78BFA" font-size="7.15">.</text>
 <text x="341.76" y="370.65" fill="#A78BFA" font-size="7.15">.</text>
 <text x="346.28" y="370.65" fill="#A78BFA" font-size="7.15">:</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 33">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="1.76s" repeatCount="indefinite" />
 <text x="79.60" y="378.70" fill="#22D3EE" font-size="7.15">:</text>
 <text x="84.12" y="378.70" fill="#22D3EE" font-size="7.15">.</text>
 <text x="88.64" y="378.70" fill="#22D3EE" font-size="7.15">.</text>
@@ -1089,6 +1189,9 @@
 <text x="341.76" y="378.70" fill="#A78BFA" font-size="7.15">.</text>
 <text x="346.28" y="378.70" fill="#A78BFA" font-size="7.15">:</text>
 <text x="350.80" y="378.70" fill="#A78BFA" font-size="7.15">:</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 34">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="1.81s" repeatCount="indefinite" />
 <text x="79.60" y="386.75" fill="#22D3EE" font-size="7.15">:</text>
 <text x="84.12" y="386.75" fill="#22D3EE" font-size="7.15">.</text>
 <text x="88.64" y="386.75" fill="#22D3EE" font-size="7.15">.</text>
@@ -1150,6 +1253,9 @@
 <text x="341.76" y="386.75" fill="#A78BFA" font-size="7.15">.</text>
 <text x="346.28" y="386.75" fill="#A78BFA" font-size="7.15">.</text>
 <text x="350.80" y="386.75" fill="#A78BFA" font-size="7.15">:</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 35">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="1.87s" repeatCount="indefinite" />
 <text x="79.60" y="394.80" fill="#22D3EE" font-size="7.15">:</text>
 <text x="84.12" y="394.80" fill="#22D3EE" font-size="7.15">.</text>
 <text x="88.64" y="394.80" fill="#22D3EE" font-size="7.15">.</text>
@@ -1209,6 +1315,9 @@
 <text x="341.76" y="394.80" fill="#A78BFA" font-size="7.15">.</text>
 <text x="346.28" y="394.80" fill="#A78BFA" font-size="7.15">:</text>
 <text x="350.80" y="394.80" fill="#A78BFA" font-size="7.15">:</text>
+</g>
+<g opacity="0.90" aria-label="Animated ASCII portrait row 36">
+  <animate attributeName="opacity" values="0.66;1;0.82;1" keyTimes="0;0.32;0.70;1" dur="4.8s" begin="1.93s" repeatCount="indefinite" />
 <text x="79.60" y="402.85" fill="#22D3EE" font-size="7.15">:</text>
 <text x="84.12" y="402.85" fill="#22D3EE" font-size="7.15">:</text>
 <text x="88.64" y="402.85" fill="#22D3EE" font-size="7.15">:</text>
@@ -1270,6 +1379,15 @@
 <text x="341.76" y="402.85" fill="#A78BFA" font-size="7.15">:</text>
 <text x="346.28" y="402.85" fill="#A78BFA" font-size="7.15">:</text>
 </g>
+</g>
+<!-- Animated portrait scan: subtle terminal scanline, loops over the ASCII glyphs. -->
+<rect x="35" y="82" width="364" height="416" fill="#22D3EE" opacity="0.055">
+  <animate attributeName="y" values="82;490;82" dur="7.2s" repeatCount="indefinite" />
+</rect>
+<line x1="36" y1="84" x2="398" y2="84" stroke="#22D3EE" stroke-width="1.6" stroke-opacity="0.72">
+  <animate attributeName="y1" values="84;492;84" dur="7.2s" repeatCount="indefinite" />
+  <animate attributeName="y2" values="84;492;84" dur="7.2s" repeatCount="indefinite" />
+</line>
 <rect x="35" y="498" width="364" height="43" rx="0" fill="#070B14" opacity="0.88"/>
 <text x="52" y="516" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="10" letter-spacing="2" fill="#22D3EE">ASCII.PORTRAIT</text>
 <text x="52" y="531" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" fill="#E8F1FF">GLYPH RENDER / NO PHOTO EMBEDDED</text>
