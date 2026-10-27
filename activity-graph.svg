@@ -9,9 +9,9 @@
 </defs>
 <style>
  .line{stroke-dasharray:1167.0;stroke-dashoffset:0;animation:draw 2.8s cubic-bezier(.3,.7,.2,1) .25s}
- .area{opacity:0;animation:fade 1.3s ease-out .65s forwards}
+ .area{opacity:.15;animation:arealoop 9s ease-in-out infinite}
  .header{opacity:0;animation:up .65s ease-out .12s forwards}
- @keyframes draw{from{stroke-dashoffset:1167.0}to{stroke-dashoffset:0}} @keyframes fade{to{opacity:.58}} @keyframes up{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
+ @keyframes draw{from{stroke-dashoffset:1167.0}to{stroke-dashoffset:0}} @keyframes arealoop{0%,100%{opacity:.12}35%,75%{opacity:.58}} @keyframes up{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
  @media (prefers-reduced-motion:reduce){.line{stroke-dashoffset:0;animation:none}.area,.header{opacity:1;animation:none}}
 </style>
 <rect x="1" y="1" width="1118" height="338" rx="18" fill="url(#chartbg)" stroke="#28334A"/>
